@@ -1,0 +1,1836 @@
+{
+  "formations": [
+    {
+      "formationName": "3-1-4-2",
+      "images": "22.png",
+      "positions": [
+        {
+          "positionName": "GK",
+          "x": 0,
+          "y": -204
+        },
+        {
+          "positionName": "CB",
+          "x": -165,
+          "y": -102
+        },
+        {
+          "positionName": "CB",
+          "x": 165,
+          "y": -102
+        },
+        {
+          "positionName": "CB",
+          "x": 0,
+          "y": -72
+        },
+        {
+          "positionName": "CDM",
+          "x": 0,
+          "y": 60
+        },
+        {
+          "positionName": "CM",
+          "x": -108,
+          "y": 78
+        },
+        {
+          "positionName": "CM",
+          "x": 108,
+          "y": 78
+        },
+        {
+          "positionName": "LM",
+          "x": -228,
+          "y": 84
+        },
+        {
+          "positionName": "RM",
+          "x": 228,
+          "y": 84
+        },
+        {
+          "positionName": "ST",
+          "x": -114,
+          "y": 213
+        },
+        {
+          "positionName": "ST",
+          "x": 114,
+          "y": 213
+        }
+      ]
+    },
+    {
+      "formationName": "3-4-1-2",
+      "images": "23.png",
+      "positions": [
+        {
+          "positionName": "GK",
+          "x": 0,
+          "y": -204
+        },
+        {
+          "positionName": "CB",
+          "x": -165,
+          "y": -102
+        },
+        {
+          "positionName": "CB",
+          "x": 165,
+          "y": -66
+        },
+        {
+          "positionName": "CB",
+          "x": 0,
+          "y": -66
+        },
+        {
+          "positionName": "CM",
+          "x": -103,
+          "y": 30
+        },
+        {
+          "positionName": "CM",
+          "x": 108,
+          "y": 30
+        },
+        {
+          "positionName": "LM",
+          "x": -228,
+          "y": 42
+        },
+        {
+          "positionName": "RM",
+          "x": 228,
+          "y": 42
+        },
+        {
+          "positionName": "CAM",
+          "x": 0,
+          "y": 132
+        },
+        {
+          "positionName": "ST",
+          "x": -114,
+          "y": 198
+        },
+        {
+          "positionName": "ST",
+          "x": 114,
+          "y": 198
+        }
+      ]
+    },
+    {
+      "formationName": "3-4-2-1",
+      "images": "24.png",
+      "positions": [
+        {
+          "positionName": "GK",
+          "x": 0,
+          "y": -204
+        },
+        {
+          "positionName": "CB",
+          "x": -165,
+          "y": -102
+        },
+        {
+          "positionName": "CB",
+          "x": 108,
+          "y": -102
+        },
+        {
+          "positionName": "CB",
+          "x": 0,
+          "y": -66
+        },
+        {
+          "positionName": "CM",
+          "x": -97,
+          "y": 30
+        },
+        {
+          "positionName": "CM",
+          "x": 103,
+          "y": 30
+        },
+        {
+          "positionName": "LM",
+          "x": -228,
+          "y": 36
+        },
+        {
+          "positionName": "RM",
+          "x": 228,
+          "y": 36
+        },
+        {
+          "positionName": "CF",
+          "x": -114,
+          "y": 174
+        },
+        {
+          "positionName": "CF",
+          "x": 114,
+          "y": 174
+        },
+        {
+          "positionName": "ST",
+          "x": 0,
+          "y": 210
+        }
+      ]
+    },
+    {
+      "formationName": "3-4-3",
+      "images": "25.png",
+      "positions": [
+        {
+          "positionName": "GK",
+          "x": 0,
+          "y": -204
+        },
+        {
+          "positionName": "CB",
+          "x": -154,
+          "y": -96
+        },
+        {
+          "positionName": "CB",
+          "x": 154,
+          "y": -96
+        },
+        {
+          "positionName": "CB",
+          "x": 0,
+          "y": -66
+        },
+        {
+          "positionName": "CM",
+          "x": -103,
+          "y": 36
+        },
+        {
+          "positionName": "CM",
+          "x": 103,
+          "y": 36
+        },
+        {
+          "positionName": "LM",
+          "x": -228,
+          "y": 66
+        },
+        {
+          "positionName": "RM",
+          "x": 228,
+          "y": 66
+        },
+        {
+          "positionName": "LW",
+          "x": -125,
+          "y": 192
+        },
+        {
+          "positionName": "RW",
+          "x": 125,
+          "y": 192
+        },
+        {
+          "positionName": "ST",
+          "x": 0,
+          "y": 204
+        }
+      ]
+    },
+    {
+      "formationName": "3-5-2",
+      "images": "27.png",
+      "positions": [
+        {
+          "positionName": "GK",
+          "x": 0,
+          "y": -204
+        },
+        {
+          "positionName": "CB",
+          "x": -160,
+          "y": -96
+        },
+        {
+          "positionName": "CB",
+          "x": 160,
+          "y": -96
+        },
+        {
+          "positionName": "CB",
+          "x": 0,
+          "y": -66
+        },
+        {
+          "positionName": "CDM",
+          "x": -108,
+          "y": 42
+        },
+        {
+          "positionName": "CDM",
+          "x": 108,
+          "y": 42
+        },
+        {
+          "positionName": "LM",
+          "x": -228,
+          "y": 84
+        },
+        {
+          "positionName": "RM",
+          "x": 228,
+          "y": 84
+        },
+        {
+          "positionName": "CAM",
+          "x": 0,
+          "y": 132
+        },
+        {
+          "positionName": "ST",
+          "x": -114,
+          "y": 216
+        },
+        {
+          "positionName": "ST",
+          "x": 114,
+          "y": 216
+        }
+      ]
+    },
+    {
+      "formationName": "4-1-2-1-2",
+      "images": "14.png",
+      "positions": [
+        {
+          "positionName": "GK",
+          "x": 0,
+          "y": -204
+        },
+        {
+          "positionName": "CB",
+          "x": -103,
+          "y": -96
+        },
+        {
+          "positionName": "CB",
+          "x": 103,
+          "y": -96
+        },
+        {
+          "positionName": "LB",
+          "x": -228,
+          "y": -84
+        },
+        {
+          "positionName": "RB",
+          "x": 228,
+          "y": -84
+        },
+        {
+          "positionName": "CDM",
+          "x": 0,
+          "y": 12
+        },
+        {
+          "positionName": "LM",
+          "x": -160,
+          "y": 60
+        },
+        {
+          "positionName": "RM",
+          "x": 160,
+          "y": 60
+        },
+        {
+          "positionName": "CAM",
+          "x": 0,
+          "y": 150
+        },
+        {
+          "positionName": "ST",
+          "x": -114,
+          "y": 204
+        },
+        {
+          "positionName": "ST",
+          "x": 114,
+          "y": 204
+        }
+      ]
+    },
+    {
+      "formationName": "4-1-2-1-2 (2)",
+      "images": "15.png",
+      "positions": [
+        {
+          "positionName": "GK",
+          "x": 0,
+          "y": -204
+        },
+        {
+          "positionName": "CB",
+          "x": -103,
+          "y": -114
+        },
+        {
+          "positionName": "CB",
+          "x": 103,
+          "y": -114
+        },
+        {
+          "positionName": "LB",
+          "x": -217,
+          "y": -84
+        },
+        {
+          "positionName": "RB",
+          "x": 217,
+          "y": -84
+        },
+        {
+          "positionName": "CDM",
+          "x": 0,
+          "y": 18
+        },
+        {
+          "positionName": "CM",
+          "x": -171,
+          "y": 60
+        },
+        {
+          "positionName": "CM",
+          "x": 171,
+          "y": 60
+        },
+        {
+          "positionName": "CAM",
+          "x": 0,
+          "y": 156
+        },
+        {
+          "positionName": "ST",
+          "x": -114,
+          "y": 216
+        },
+        {
+          "positionName": "ST",
+          "x": 114,
+          "y": 216
+        }
+      ]
+    },
+    {
+      "formationName": "4-1-3-2",
+      "images": "1.png",
+      "positions": [
+        {
+          "positionName": "GK",
+          "x": 0,
+          "y": -204
+        },
+        {
+          "positionName": "CB",
+          "x": -171,
+          "y": -108
+        },
+        {
+          "positionName": "CB",
+          "x": 171,
+          "y": -108
+        },
+        {
+          "positionName": "LB",
+          "x": -285,
+          "y": -90
+        },
+        {
+          "positionName": "RB",
+          "x": 285,
+          "y": -90
+        },
+        {
+          "positionName": "CDM",
+          "x": 0,
+          "y": -48
+        },
+        {
+          "positionName": "CM",
+          "x": 0,
+          "y": 216
+        },
+        {
+          "positionName": "LM",
+          "x": -160,
+          "y": 84
+        },
+        {
+          "positionName": "RM",
+          "x": 160,
+          "y": 84
+        },
+        {
+          "positionName": "ST",
+          "x": -74,
+          "y": 210
+        },
+        {
+          "positionName": "ST",
+          "x": 74,
+          "y": 210
+        }
+      ]
+    },
+    {
+      "formationName": "4-1-4-1",
+      "images": "2.png",
+      "positions": [
+        {
+          "positionName": "GK",
+          "x": 0,
+          "y": -204
+        },
+        {
+          "positionName": "CB",
+          "x": -114,
+          "y": -96
+        },
+        {
+          "positionName": "CB",
+          "x": 114,
+          "y": -96
+        },
+        {
+          "positionName": "LB",
+          "x": -228,
+          "y": -78
+        },
+        {
+          "positionName": "RB",
+          "x": 228,
+          "y": -78
+        },
+        {
+          "positionName": "CDM",
+          "x": 0,
+          "y": 18
+        },
+        {
+          "positionName": "CM",
+          "x": -114,
+          "y": 84
+        },
+        {
+          "positionName": "CM",
+          "x": 114,
+          "y": 84
+        },
+        {
+          "positionName": "LM",
+          "x": -222,
+          "y": 90
+        },
+        {
+          "positionName": "RM",
+          "x": 222,
+          "y": 90
+        },
+        {
+          "positionName": "ST",
+          "x": 0,
+          "y": 210
+        }
+      ]
+    },
+    {
+      "formationName": "4-2-2-2",
+      "images": "13.png",
+      "positions": [
+        {
+          "positionName": "GK",
+          "x": 0,
+          "y": -204
+        },
+        {
+          "positionName": "CB",
+          "x": -97,
+          "y": -96
+        },
+        {
+          "positionName": "CB",
+          "x": 97,
+          "y": -96
+        },
+        {
+          "positionName": "LB",
+          "x": -228,
+          "y": -84
+        },
+        {
+          "positionName": "RB",
+          "x": 228,
+          "y": -84
+        },
+        {
+          "positionName": "CDM",
+          "x": -86,
+          "y": 48
+        },
+        {
+          "positionName": "CDM",
+          "x": 86,
+          "y": 48
+        },
+        {
+          "positionName": "CAM",
+          "x": -211,
+          "y": 90
+        },
+        {
+          "positionName": "CAM",
+          "x": 211,
+          "y": 90
+        },
+        {
+          "positionName": "ST",
+          "x": -68,
+          "y": 210
+        },
+        {
+          "positionName": "ST",
+          "x": 68,
+          "y": 210
+        }
+      ]
+    },
+    {
+      "formationName": "4-2-3-1",
+      "images": "3.png",
+      "positions": [
+        {
+          "positionName": "GK",
+          "position": {
+            "left": "50%",
+            "top": "84%"
+          }
+        },
+        {
+          "positionName": "CB",
+          "x": 0,
+          "y": -204
+        },
+        {
+          "positionName": "CB",
+          "x": 103,
+          "y": -120
+        },
+        {
+          "positionName": "LB",
+          "x": -228,
+          "y": -114
+        },
+        {
+          "positionName": "RB",
+          "x": 228,
+          "y": -114
+        },
+        {
+          "positionName": "CDM",
+          "x": -171,
+          "y": 18
+        },
+        {
+          "positionName": "CDM",
+          "x": 171,
+          "y": 18
+        },
+        {
+          "positionName": "CAM",
+          "x": 0,
+          "y": 72
+        },
+        {
+          "positionName": "CAM",
+          "x": -114,
+          "y": 150
+        },
+        {
+          "positionName": "CAM",
+          "x": 114,
+          "y": 150
+        },
+        {
+          "positionName": "ST",
+          "x": 0,
+          "y": 216
+        }
+      ]
+    },
+    {
+      "formationName": "4-2-3-1 (2)",
+      "images": "4.png",
+      "positions": [
+        {
+          "positionName": "GK",
+          "x": 0,
+          "y": -204
+        },
+        {
+          "positionName": "CB",
+          "x": -108,
+          "y": -132
+        },
+        {
+          "positionName": "CB",
+          "x": 108,
+          "y": -132
+        },
+        {
+          "positionName": "LB",
+          "x": -228,
+          "y": -120
+        },
+        {
+          "positionName": "RB",
+          "x": 228,
+          "y": -120
+        },
+        {
+          "positionName": "CDM",
+          "x": -120,
+          "y": 0
+        },
+        {
+          "positionName": "CDM",
+          "x": 120,
+          "y": 0
+        },
+        {
+          "positionName": "LM",
+          "x": -228,
+          "y": 96
+        },
+        {
+          "positionName": "RM",
+          "x": 228,
+          "y": 96
+        },
+        {
+          "positionName": "CAM",
+          "x": 0,
+          "y": 72
+        },
+        {
+          "positionName": "ST",
+          "x": 0,
+          "y": 216
+        }
+      ]
+    },
+    {
+      "formationName": "4-2-4",
+      "images": "5.png",
+      "positions": [
+        {
+          "positionName": "GK",
+          "x": 0,
+          "y": -204
+        },
+        {
+          "positionName": "CB",
+          "x": -103,
+          "y": -120
+        },
+        {
+          "positionName": "CB",
+          "x": 103,
+          "y": -120
+        },
+        {
+          "positionName": "LB",
+          "x": -228,
+          "y": -90
+        },
+        {
+          "positionName": "RB",
+          "x": 228,
+          "y": -90
+        },
+        {
+          "positionName": "CM",
+          "x": -103,
+          "y": 18
+        },
+        {
+          "positionName": "CM",
+          "x": 103,
+          "y": 18
+        },
+        {
+          "positionName": "LW",
+          "x": -222,
+          "y": 102
+        },
+        {
+          "positionName": "RW",
+          "x": 222,
+          "y": 102
+        },
+        {
+          "positionName": "ST",
+          "x": -103,
+          "y": 210
+        },
+        {
+          "positionName": "ST",
+          "x": 103,
+          "y": 210
+        }
+      ]
+    },
+    {
+      "formationName": "4-3-1-2",
+      "images": "6.png",
+      "positions": [
+        {
+          "positionName": "GK",
+          "x": 0,
+          "y": -204
+        },
+        {
+          "positionName": "CB",
+          "x": -108,
+          "y": -96
+        },
+        {
+          "positionName": "CB",
+          "x": 108,
+          "y": -96
+        },
+        {
+          "positionName": "LB",
+          "x": -228,
+          "y": -84
+        },
+        {
+          "positionName": "RB",
+          "x": 228,
+          "y": -84
+        },
+        {
+          "positionName": "CM",
+          "x": 0,
+          "y": 24
+        },
+        {
+          "positionName": "CM",
+          "x": -182,
+          "y": 84
+        },
+        {
+          "positionName": "CM",
+          "x": 182,
+          "y": 84
+        },
+        {
+          "positionName": "CAM",
+          "x": 0,
+          "y": 168
+        },
+        {
+          "positionName": "ST",
+          "x": -114,
+          "y": 222
+        },
+        {
+          "positionName": "ST",
+          "x": 114,
+          "y": 222
+        }
+      ]
+    },
+    {
+      "formationName": "4-3-2-1",
+      "images": "7.png",
+      "positions": [
+        {
+          "positionName": "GK",
+          "x": 0,
+          "y": -204
+        },
+        {
+          "positionName": "CB",
+          "x": -103,
+          "y": -102
+        },
+        {
+          "positionName": "CB",
+          "x": 103,
+          "y": -102
+        },
+        {
+          "positionName": "LB",
+          "x": -228,
+          "y": -84
+        },
+        {
+          "positionName": "RB",
+          "x": 228,
+          "y": -84
+        },
+        {
+          "positionName": "CM",
+          "x": 0,
+          "y": 42
+        },
+        {
+          "positionName": "CM",
+          "x": -171,
+          "y": 60
+        },
+        {
+          "positionName": "CM",
+          "x": 171,
+          "y": 60
+        },
+        {
+          "positionName": "CF",
+          "x": -114,
+          "y": 192
+        },
+        {
+          "positionName": "CF",
+          "x": 114,
+          "y": 192
+        },
+        {
+          "positionName": "ST",
+          "x": 0,
+          "y": 216
+        }
+      ]
+    },
+    {
+      "formationName": "4-3-3",
+      "images": "8.png",
+      "positions": [
+        {
+          "positionName": "GK",
+          "x": 0,
+          "y": -204
+        },
+        {
+          "positionName": "CB",
+          "x": -103,
+          "y": -120
+        },
+        {
+          "positionName": "CB",
+          "x": 103,
+          "y": -120
+        },
+        {
+          "positionName": "LB",
+          "x": -217,
+          "y": -102
+        },
+        {
+          "positionName": "RB",
+          "x": 217,
+          "y": -102
+        },
+        {
+          "positionName": "CM",
+          "x": 0,
+          "y": 24
+        },
+        {
+          "positionName": "CM",
+          "x": -143,
+          "y": 36
+        },
+        {
+          "positionName": "CM",
+          "x": 143,
+          "y": 36
+        },
+        {
+          "positionName": "LW",
+          "x": -131,
+          "y": 168
+        },
+        {
+          "positionName": "RW",
+          "x": 131,
+          "y": 168
+        },
+        {
+          "positionName": "ST",
+          "x": 0,
+          "y": 198
+        }
+      ]
+    },
+    {
+      "formationName": "4-3-3 (2)",
+      "images": "9.png",
+      "positions": [
+        {
+          "positionName": "GK",
+          "x": 0,
+          "y": -204
+        },
+        {
+          "positionName": "CB",
+          "x": -103,
+          "y": -120
+        },
+        {
+          "positionName": "CB",
+          "x": 103,
+          "y": -120
+        },
+        {
+          "positionName": "LB",
+          "x": -217,
+          "y": -102
+        },
+        {
+          "positionName": "RB",
+          "x": 217,
+          "y": -102
+        },
+        {
+          "positionName": "CDM",
+          "x": 0,
+          "y": -6
+        },
+        {
+          "positionName": "CM",
+          "x": -143,
+          "y": 36
+        },
+        {
+          "positionName": "CM",
+          "x": 143,
+          "y": 36
+        },
+        {
+          "positionName": "LW",
+          "x": -131,
+          "y": 168
+        },
+        {
+          "positionName": "RW",
+          "x": 131,
+          "y": 168
+        },
+        {
+          "positionName": "ST",
+          "x": 0,
+          "y": 198
+        }
+      ]
+    },
+    {
+      "formationName": "4-3-3 (3)",
+      "images": "10.png",
+      "positions": [
+        {
+          "positionName": "GK",
+          "x": 0,
+          "y": -204
+        },
+        {
+          "positionName": "CB",
+          "x": -103,
+          "y": -120
+        },
+        {
+          "positionName": "CB",
+          "x": 103,
+          "y": -120
+        },
+        {
+          "positionName": "LB",
+          "x": -217,
+          "y": -102
+        },
+        {
+          "positionName": "RB",
+          "x": 217,
+          "y": -102
+        },
+        {
+          "positionName": "CDM",
+          "x": -143,
+          "y": 36
+        },
+        {
+          "positionName": "CDM",
+          "x": 143,
+          "y": 36
+        },
+        {
+          "positionName": "CM",
+          "x": 0,
+          "y": 60
+        },
+        {
+          "positionName": "LW",
+          "x": -131,
+          "y": 168
+        },
+        {
+          "positionName": "RW",
+          "x": 131,
+          "y": 168
+        },
+        {
+          "positionName": "ST",
+          "x": 0,
+          "y": 198
+        }
+      ]
+    },
+    {
+      "formationName": "4-3-3 (4)",
+      "images": "11.png",
+      "positions": [
+        {
+          "positionName": "GK",
+          "x": 0,
+          "y": -204
+        },
+        {
+          "positionName": "CB",
+          "x": -103,
+          "y": -120
+        },
+        {
+          "positionName": "CB",
+          "x": 103,
+          "y": -120
+        },
+        {
+          "positionName": "LB",
+          "x": -217,
+          "y": -102
+        },
+        {
+          "positionName": "RB",
+          "x": 217,
+          "y": -102
+        },
+        {
+          "positionName": "CM",
+          "x": -131,
+          "y": 36
+        },
+        {
+          "positionName": "CM",
+          "x": 131,
+          "y": 36
+        },
+        {
+          "positionName": "CAM",
+          "x": 0,
+          "y": 60
+        },
+        {
+          "positionName": "LW",
+          "x": -131,
+          "y": 168
+        },
+        {
+          "positionName": "RW",
+          "x": 131,
+          "y": 168
+        },
+        {
+          "positionName": "ST",
+          "x": 0,
+          "y": 198
+        }
+      ]
+    },
+    {
+      "formationName": "4-3-3 (5)",
+      "images": "12.png",
+      "positions": [
+        {
+          "positionName": "GK",
+          "x": 0,
+          "y": -204
+        },
+        {
+          "positionName": "CB",
+          "x": -103,
+          "y": -120
+        },
+        {
+          "positionName": "CB",
+          "x": 103,
+          "y": -120
+        },
+        {
+          "positionName": "LB",
+          "x": -217,
+          "y": -102
+        },
+        {
+          "positionName": "RB",
+          "x": 217,
+          "y": -102
+        },
+        {
+          "positionName": "CDM",
+          "x": 0,
+          "y": 12
+        },
+        {
+          "positionName": "CM",
+          "x": -120,
+          "y": 42
+        },
+        {
+          "positionName": "CM",
+          "x": 120,
+          "y": 42
+        },
+        {
+          "positionName": "LW",
+          "x": -131,
+          "y": 180
+        },
+        {
+          "positionName": "RW",
+          "x": 131,
+          "y": 180
+        },
+        {
+          "positionName": "CF",
+          "x": 0,
+          "y": 150
+        }
+      ]
+    },
+    {
+      "formationName": "4-4-1-1",
+      "images": "19.png",
+      "positions": [
+        {
+          "positionName": "GK",
+          "x": 0,
+          "y": -204
+        },
+        {
+          "positionName": "CB",
+          "x": -114,
+          "y": -108
+        },
+        {
+          "positionName": "CB",
+          "x": 114,
+          "y": -108
+        },
+        {
+          "positionName": "LB",
+          "x": -228,
+          "y": -84
+        },
+        {
+          "positionName": "RB",
+          "x": 228,
+          "y": -84
+        },
+        {
+          "positionName": "CM",
+          "x": -114,
+          "y": 48
+        },
+        {
+          "positionName": "CM",
+          "x": 114,
+          "y": 48
+        },
+        {
+          "positionName": "LM",
+          "x": -228,
+          "y": 72
+        },
+        {
+          "positionName": "RM",
+          "x": 228,
+          "y": 72
+        },
+        {
+          "positionName": "CF",
+          "x": 0,
+          "y": 90
+        },
+        {
+          "positionName": "ST",
+          "x": 0,
+          "y": 228
+        }
+      ]
+    },
+    {
+      "formationName": "4-4-1-1 (2)",
+      "images": "18.png",
+      "positions": [
+        {
+          "positionName": "GK",
+          "x": 0,
+          "y": -204
+        },
+        {
+          "positionName": "CB",
+          "x": -114,
+          "y": -108
+        },
+        {
+          "positionName": "CB",
+          "x": 114,
+          "y": -108
+        },
+        {
+          "positionName": "LB",
+          "x": -228,
+          "y": -84
+        },
+        {
+          "positionName": "RB",
+          "x": 228,
+          "y": -84
+        },
+        {
+          "positionName": "CM",
+          "x": -120,
+          "y": 48
+        },
+        {
+          "positionName": "CM",
+          "x": 120,
+          "y": 48
+        },
+        {
+          "positionName": "LM",
+          "x": -228,
+          "y": 72
+        },
+        {
+          "positionName": "RM",
+          "x": 228,
+          "y": 72
+        },
+        {
+          "positionName": "CAM",
+          "x": 0,
+          "y": 84
+        },
+        {
+          "positionName": "ST",
+          "x": 0,
+          "y": 216
+        }
+      ]
+    },
+    {
+      "formationName": "4-4-2",
+      "images": "16.png",
+      "positions": [
+        {
+          "positionName": "GK",
+          "x": 0,
+          "y": -204
+        },
+        {
+          "positionName": "CB",
+          "x": -108,
+          "y": -96
+        },
+        {
+          "positionName": "CB",
+          "x": 108,
+          "y": -96
+        },
+        {
+          "positionName": "LB",
+          "x": -222,
+          "y": -84
+        },
+        {
+          "positionName": "RB",
+          "x": 222,
+          "y": -84
+        },
+        {
+          "positionName": "CM",
+          "x": -86,
+          "y": 48
+        },
+        {
+          "positionName": "CM",
+          "x": 86,
+          "y": 48
+        },
+        {
+          "positionName": "LM",
+          "x": -200,
+          "y": 60
+        },
+        {
+          "positionName": "RM",
+          "x": 200,
+          "y": 60
+        },
+        {
+          "positionName": "ST",
+          "x": -97,
+          "y": 192
+        },
+        {
+          "positionName": "ST",
+          "x": 97,
+          "y": 192
+        }
+      ]
+    },
+    {
+      "formationName": "4-4-2 (2)",
+      "images": "17.png",
+      "positions": [
+        {
+          "positionName": "GK",
+          "x": 0,
+          "y": -204
+        },
+        {
+          "positionName": "CB",
+          "x": -108,
+          "y": -96
+        },
+        {
+          "positionName": "CB",
+          "x": 108,
+          "y": -96
+        },
+        {
+          "positionName": "LB",
+          "x": -222,
+          "y": -84
+        },
+        {
+          "positionName": "RB",
+          "x": 222,
+          "y": -84
+        },
+        {
+          "positionName": "CDM",
+          "x": -86,
+          "y": 48
+        },
+        {
+          "positionName": "CDM",
+          "x": 86,
+          "y": 48
+        },
+        {
+          "positionName": "LM",
+          "x": -200,
+          "y": 60
+        },
+        {
+          "positionName": "RM",
+          "x": 200,
+          "y": 60
+        },
+        {
+          "positionName": "ST",
+          "x": -97,
+          "y": 192
+        },
+        {
+          "positionName": "ST",
+          "x": 97,
+          "y": 192
+        }
+      ]
+    },
+    {
+      "formationName": "4-5-1",
+      "images": "21.png",
+      "positions": [
+        {
+          "positionName": "GK",
+          "x": 0,
+          "y": -204
+        },
+        {
+          "positionName": "CB",
+          "x": -114,
+          "y": -96
+        },
+        {
+          "positionName": "CB",
+          "x": 114,
+          "y": 96
+        },
+        {
+          "positionName": "LB",
+          "x": -228,
+          "y": -84
+        },
+        {
+          "positionName": "RB",
+          "x": 228,
+          "y": -84
+        },
+        {
+          "positionName": "CM",
+          "x": 0,
+          "y": 24
+        },
+        {
+          "positionName": "LM",
+          "x": -228,
+          "y": 60
+        },
+        {
+          "positionName": "RM",
+          "x": 228,
+          "y": 60
+        },
+        {
+          "positionName": "CAM",
+          "x": -114,
+          "y": 96
+        },
+        {
+          "positionName": "CAM",
+          "x": 114,
+          "y": 96
+        },
+        {
+          "positionName": "ST",
+          "x": 0,
+          "y": 204
+        }
+      ]
+    },
+    {
+      "formationName": "4-5-1 (2)",
+      "images": "20.png",
+      "positions": [
+        {
+          "positionName": "GK",
+          "x": 0,
+          "y": -204
+        },
+        {
+          "positionName": "CB",
+          "x": -114,
+          "y": -96
+        },
+        {
+          "positionName": "CB",
+          "x": 114,
+          "y": -96
+        },
+        {
+          "positionName": "LB",
+          "x": -228,
+          "y": -84
+        },
+        {
+          "positionName": "RB",
+          "x": 228,
+          "y": -84
+        },
+        {
+          "positionName": "CM",
+          "x": 0,
+          "y": 42
+        },
+        {
+          "positionName": "CM",
+          "x": -114,
+          "y": 60
+        },
+        {
+          "positionName": "CM",
+          "x": 114,
+          "y": 60
+        },
+        {
+          "positionName": "LM",
+          "x": -228,
+          "y": 90
+        },
+        {
+          "positionName": "RM",
+          "x": 228,
+          "y": 90
+        },
+        {
+          "positionName": "ST",
+          "x": 0,
+          "y": 204
+        }
+      ]
+    },
+    {
+      "formationName": "5-2-1-2",
+      "images": "29.png",
+      "positions": [
+        {
+          "positionName": "GK",
+          "x": 0,
+          "y": -204
+        },
+        {
+          "positionName": "CB",
+          "x": 0,
+          "y": -66
+        },
+        {
+          "positionName": "CB",
+          "x": -114,
+          "y": -72
+        },
+        {
+          "positionName": "CB",
+          "x": 114,
+          "y": -72
+        },
+        {
+          "positionName": "LWB",
+          "x": -228,
+          "y": -36
+        },
+        {
+          "positionName": "RWB",
+          "x": 228,
+          "y": -36
+        },
+        {
+          "positionName": "CM",
+          "x": -108,
+          "y": 66
+        },
+        {
+          "positionName": "CM",
+          "x": 108,
+          "y": 66
+        },
+        {
+          "positionName": "CAM",
+          "x": 0,
+          "y": 174
+        },
+        {
+          "positionName": "ST",
+          "x": -114,
+          "y": 210
+        },
+        {
+          "positionName": "ST",
+          "x": 114,
+          "y": 210
+        }
+      ]
+    },
+    {
+      "formationName": "5-2-2-1",
+      "images": "30.png",
+      "positions": [
+        {
+          "positionName": "GK",
+          "x": 0,
+          "y": -204
+        },
+        {
+          "positionName": "CB",
+          "x": 0,
+          "y": -66
+        },
+        {
+          "positionName": "CB",
+          "x": -114,
+          "y": -90
+        },
+        {
+          "positionName": "CB",
+          "x": 114,
+          "y": -90
+        },
+        {
+          "positionName": "LWB",
+          "x": -228,
+          "y": -36
+        },
+        {
+          "positionName": "RWB",
+          "x": 228,
+          "y": -36
+        },
+        {
+          "positionName": "CM",
+          "x": -97,
+          "y": 48
+        },
+        {
+          "positionName": "CM",
+          "x": 97,
+          "y": 48
+        },
+        {
+          "positionName": "LW",
+          "x": -114,
+          "y": 186
+        },
+        {
+          "positionName": "RW",
+          "x": 114,
+          "y": 186
+        },
+        {
+          "positionName": "ST",
+          "x": 0,
+          "y": 216
+        }
+      ]
+    },
+    {
+      "formationName": "5-1-2-2",
+      "images": "31.png",
+      "positions": [
+        {
+          "positionName": "GK",
+          "x": 0,
+          "y": -204
+        },
+        {
+          "positionName": "CB",
+          "x": 0,
+          "y": -66
+        },
+        {
+          "positionName": "CB",
+          "x": -114,
+          "y": -84
+        },
+        {
+          "positionName": "CB",
+          "x": 114,
+          "y": -84
+        },
+        {
+          "positionName": "LWB",
+          "x": -228,
+          "y": -54
+        },
+        {
+          "positionName": "RWB",
+          "x": 228,
+          "y": -54
+        },
+        {
+          "positionName": "CDM",
+          "x": 0,
+          "y": 72
+        },
+        {
+          "positionName": "CM",
+          "x": -160,
+          "y": 96
+        },
+        {
+          "positionName": "CM",
+          "x": 160,
+          "y": 96
+        },
+        {
+          "positionName": "ST",
+          "x": -74,
+          "y": 222
+        },
+        {
+          "positionName": "ST",
+          "x": 74,
+          "y": 222
+        }
+      ]
+    },
+    {
+      "formationName": "5-4-1",
+      "images": "33.png",
+      "positions": [
+        {
+          "positionName": "GK",
+          "x": 0,
+          "y": -204
+        },
+        {
+          "positionName": "CB",
+          "x": 0,
+          "y": -66
+        },
+        {
+          "positionName": "CB",
+          "x": -114,
+          "y": -84
+        },
+        {
+          "positionName": "CB",
+          "x": 114,
+          "y": -84
+        },
+        {
+          "positionName": "LWB",
+          "x": -228,
+          "y": -54
+        },
+        {
+          "positionName": "RWB",
+          "x": 228,
+          "y": -54
+        },
+        {
+          "positionName": "CM",
+          "x": -86,
+          "y": 72
+        },
+        {
+          "positionName": "CM",
+          "x": -86,
+          "y": 72
+        },
+        {
+          "positionName": "LM",
+          "x": -200,
+          "y": 84
+        },
+        {
+          "positionName": "RM",
+          "x": 200,
+          "y": 84
+        },
+        {
+          "positionName": "ST",
+          "x": 0,
+          "y": 204
+        }
+      ]
+    }
+  ]
+}
