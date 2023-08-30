@@ -1,8 +1,8 @@
-using System;
-using System.Collections;
 using System.Collections.Generic;
+using System.IO;
 using TMPro;
 using UnityEngine;
+using UnityEngine.UI;
 
 enum CardType
 {
@@ -42,6 +42,7 @@ public class Card : MonoBehaviour
 
         }
 
+
         if (player.image[0] == 'p')
         {
             //TODO: Load Images
@@ -52,14 +53,16 @@ public class Card : MonoBehaviour
         {
             playerFaceNormal.SetActive(true);
             playerFaceDynamic.SetActive(false);
+            playerFaceNormal.GetComponent<Image>().sprite = LoadImage(Path.Combine(Application.persistentDataPath, "images", "player", player.image));
+
         }
 
 
 
         for (int i = 0; i < attributes.Count; i++)
         {
-            attributes[i].value.text = player.attribute.attributes[i].value;
-            attributes[i].label.text = player.attribute.attributes[i].label;
+            attributes[i].value.text = player.attributes.attribute[i].value.ToString();
+            attributes[i].label.text = player.attributes.attribute[i].label;
         }
 
         if (player.card.id == 1)
@@ -74,8 +77,8 @@ public class Card : MonoBehaviour
             clubImage.SetActive(true);
         }
 
-        ratingText.text = player.attribute.rating.ToString();
-        positionText.text = player.attribute.position;
+        ratingText.text = player.attributes.rating.ToString();
+        positionText.text = player.attributes.position;
         playerNameText.text = player.displayName;
 
         Color textColor;
@@ -93,5 +96,21 @@ public class Card : MonoBehaviour
         }
     }
 
+    private Sprite LoadImage(string imagePath)
+    {
+        if (File.Exists(imagePath))
+        {
+            byte[] imageData = File.ReadAllBytes(imagePath);
+            Texture2D texture = new Texture2D(2, 2);
+            texture.LoadImage(imageData);
 
+            Sprite newSprite = Sprite.Create(texture, new Rect(0, 0, texture.width, texture.height), Vector2.one * 0.5f);
+            return newSprite;
+        }
+        else
+        {
+            Debug.LogError("Bild nicht gefunden: " + imagePath);
+            return null;
+        }
+    }
 }

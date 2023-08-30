@@ -884,7 +884,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 7775538039468074316, guid: e652ad85ff1134f48bbb8914366c6816, type: 3}
+  m_Sprite: {fileID: 7675690463494733825, guid: 19e22dd10a28def46baecf01ec077721, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -907,12 +907,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cardType: 1
-  PlayerFaceNormal: {fileID: 5828078442586307514}
-  PlayerFaceDynamic: {fileID: 1173251881864696172}
-  RatingText: {fileID: 3662078810284957796}
-  PositionText: {fileID: 1185364584861610859}
-  PlayerNameText: {fileID: 2435494546778213611}
-  Attributes:
+  playerFaceNormal: {fileID: 5828078442586307514}
+  playerFaceDynamic: {fileID: 1173251881864696172}
+  ratingText: {fileID: 3662078810284957796}
+  positionText: {fileID: 1185364584861610859}
+  playerNameText: {fileID: 2435494546778213611}
+  attributes:
   - label: {fileID: 8519564087174786204}
     value: {fileID: 5978431659041468314}
   - label: {fileID: 2288925264114213193}
@@ -925,9 +925,9 @@ MonoBehaviour:
     value: {fileID: 4659404119066330398}
   - label: {fileID: 4136076550265264367}
     value: {fileID: 559294866935585828}
-  NationImage: {fileID: 4833303192199970711}
-  LeagueImage: {fileID: 7817393190453220294}
-  ClubImage: {fileID: 300430505815557426}
+  nationImage: {fileID: 4833303192199970711}
+  leagueImage: {fileID: 7817393190453220294}
+  clubImage: {fileID: 300430505815557426}
 --- !u!1 &3208568699888148263
 GameObject:
   m_ObjectHideFlags: 0
@@ -1396,7 +1396,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 1947337503928191410, guid: 2ef4cf8a5eb06e24d8927992d010d1eb, type: 3}
+  m_Sprite: {fileID: 7980952170922167834, guid: ad80727fc4b7ca543a6d12863ba3ff04, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1

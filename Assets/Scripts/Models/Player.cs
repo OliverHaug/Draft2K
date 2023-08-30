@@ -5,7 +5,7 @@ public class PlayerModel
     public string image;
     public string name;
     public string displayName;
-    public AttributeModel attribute;
+    public AttributeModel attributes;
     public CardModel card;
     public NationModel nation;
     public ClubModel club;

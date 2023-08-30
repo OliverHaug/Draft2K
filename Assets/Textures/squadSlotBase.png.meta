@@ -152,7 +152,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      squadSlotBase_0: -8497838895103977918
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

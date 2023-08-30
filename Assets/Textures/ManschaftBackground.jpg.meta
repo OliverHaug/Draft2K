@@ -152,7 +152,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      ManschaftBackground_0: -5770031714139909162
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
