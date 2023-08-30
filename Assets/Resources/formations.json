@@ -6,58 +6,58 @@
       "positions": [
         {
           "positionName": "GK",
-          "x": 0,
-          "y": -204
+          "x": 0.5,
+          "y": 0.84
         },
         {
           "positionName": "CB",
-          "x": -165,
-          "y": -102
+          "x": 0.21,
+          "y": 0.67
         },
         {
           "positionName": "CB",
-          "x": 165,
-          "y": -102
+          "x": 0.79,
+          "y": 0.67
         },
         {
           "positionName": "CB",
-          "x": 0,
-          "y": -72
+          "x": 0.5,
+          "y": 0.62
         },
         {
           "positionName": "CDM",
-          "x": 0,
-          "y": 60
+          "x": 0.5,
+          "y": 0.4
         },
         {
           "positionName": "CM",
-          "x": -108,
-          "y": 78
+          "x": 0.31,
+          "y": 0.37
         },
         {
           "positionName": "CM",
-          "x": 108,
-          "y": 78
+          "x": 0.69,
+          "y": 0.37
         },
         {
           "positionName": "LM",
-          "x": -228,
-          "y": 84
+          "x": 0.1,
+          "y": 0.36
         },
         {
           "positionName": "RM",
-          "x": 228,
-          "y": 84
+          "x": 0.9,
+          "y": 0.36
         },
         {
           "positionName": "ST",
-          "x": -114,
-          "y": 213
+          "x": 0.3,
+          "y": 0.145
         },
         {
           "positionName": "ST",
-          "x": 114,
-          "y": 213
+          "x": 0.7,
+          "y": 0.145
         }
       ]
     },
@@ -67,58 +67,58 @@
       "positions": [
         {
           "positionName": "GK",
-          "x": 0,
-          "y": -204
+          "x": 0.5,
+          "y": 0.84
         },
         {
           "positionName": "CB",
-          "x": -165,
-          "y": -102
+          "x": 0.21,
+          "y": 0.67
         },
         {
           "positionName": "CB",
-          "x": 165,
-          "y": -66
+          "x": 0.79,
+          "y": 0.67
         },
         {
           "positionName": "CB",
-          "x": 0,
-          "y": -66
+          "x": 0.5,
+          "y": 0.61
         },
         {
           "positionName": "CM",
-          "x": -103,
-          "y": 30
+          "x": 0.315,
+          "y": 0.445
         },
         {
           "positionName": "CM",
-          "x": 108,
-          "y": 30
+          "x": 0.685,
+          "y": 0.445
         },
         {
           "positionName": "LM",
-          "x": -228,
-          "y": 42
+          "x": 0.1,
+          "y": 0.43
         },
         {
           "positionName": "RM",
-          "x": 228,
-          "y": 42
+          "x": 0.9,
+          "y": 0.43
         },
         {
           "positionName": "CAM",
-          "x": 0,
-          "y": 132
+          "x": 0.5,
+          "y": 0.28
         },
         {
           "positionName": "ST",
-          "x": -114,
-          "y": 198
+          "x": 0.3,
+          "y": 0.17
         },
         {
           "positionName": "ST",
-          "x": 114,
-          "y": 198
+          "x": 0.7,
+          "y": 0.17
         }
       ]
     },
@@ -128,58 +128,58 @@
       "positions": [
         {
           "positionName": "GK",
-          "x": 0,
-          "y": -204
+          "x": 0.5,
+          "y": 0.84
         },
         {
           "positionName": "CB",
-          "x": -165,
-          "y": -102
+          "x": 0.21,
+          "y": 0.67
         },
         {
           "positionName": "CB",
-          "x": 108,
-          "y": -102
+          "x": 0.69,
+          "y": 0.67
         },
         {
           "positionName": "CB",
-          "x": 0,
-          "y": -66
+          "x": 0.5,
+          "y": 0.61
         },
         {
           "positionName": "CM",
-          "x": -97,
-          "y": 30
+          "x": 0.325,
+          "y": 0.45
         },
         {
           "positionName": "CM",
-          "x": 103,
-          "y": 30
+          "x": 0.675,
+          "y": 0.45
         },
         {
           "positionName": "LM",
-          "x": -228,
-          "y": 36
+          "x": 0.1,
+          "y": 0.44
         },
         {
           "positionName": "RM",
-          "x": 228,
-          "y": 36
+          "x": 0.9,
+          "y": 0.44
         },
         {
           "positionName": "CF",
-          "x": -114,
-          "y": 174
+          "x": 0.295,
+          "y": 0.205
         },
         {
           "positionName": "CF",
-          "x": 114,
-          "y": 174
+          "x": 0.705,
+          "y": 0.205
         },
         {
           "positionName": "ST",
-          "x": 0,
-          "y": 210
+          "x": 0.5,
+          "y": 0.15
         }
       ]
     },
@@ -189,58 +189,58 @@
       "positions": [
         {
           "positionName": "GK",
-          "x": 0,
-          "y": -204
+          "x": 0.5,
+          "y": 0.84
         },
         {
           "positionName": "CB",
-          "x": -154,
-          "y": -96
+          "x": 0.23,
+          "y": 0.66
         },
         {
           "positionName": "CB",
-          "x": 154,
-          "y": -96
+          "x": 0.77,
+          "y": 0.66
         },
         {
           "positionName": "CB",
-          "x": 0,
-          "y": -66
+          "x": 0.5,
+          "y": 0.61
         },
         {
           "positionName": "CM",
-          "x": -103,
-          "y": 36
+          "x": 0.32,
+          "y": 0.435
         },
         {
           "positionName": "CM",
-          "x": 103,
-          "y": 36
+          "x": 0.68,
+          "y": 0.435
         },
         {
           "positionName": "LM",
-          "x": -228,
-          "y": 66
+          "x": 0.1,
+          "y": 0.39
         },
         {
           "positionName": "RM",
-          "x": 228,
-          "y": 66
+          "x": 0.9,
+          "y": 0.39
         },
         {
           "positionName": "LW",
-          "x": -125,
-          "y": 192
+          "x": 0.28,
+          "y": 0.18
         },
         {
           "positionName": "RW",
-          "x": 125,
-          "y": 192
+          "x": 0.72,
+          "y": 0.18
         },
         {
           "positionName": "ST",
-          "x": 0,
-          "y": 204
+          "x": 0.5,
+          "y": 0.16
         }
       ]
     },
@@ -250,58 +250,58 @@
       "positions": [
         {
           "positionName": "GK",
-          "x": 0,
-          "y": -204
+          "x": 0.5,
+          "y": 0.84
         },
         {
           "positionName": "CB",
-          "x": -160,
-          "y": -96
+          "x": 0.22,
+          "y": 0.66
         },
         {
           "positionName": "CB",
-          "x": 160,
-          "y": -96
+          "x": 0.78,
+          "y": 0.66
         },
         {
           "positionName": "CB",
-          "x": 0,
-          "y": -66
+          "x": 0.5,
+          "y": 0.61
         },
         {
           "positionName": "CDM",
-          "x": -108,
-          "y": 42
+          "x": 0.31,
+          "y": 0.43
         },
         {
           "positionName": "CDM",
-          "x": 108,
-          "y": 42
+          "x": 0.69,
+          "y": 0.43
         },
         {
           "positionName": "LM",
-          "x": -228,
-          "y": 84
+          "x": 0.1,
+          "y": 0.36
         },
         {
           "positionName": "RM",
-          "x": 228,
-          "y": 84
+          "x": 0.9,
+          "y": 0.36
         },
         {
           "positionName": "CAM",
-          "x": 0,
-          "y": 132
+          "x": 0.5,
+          "y": 0.28
         },
         {
           "positionName": "ST",
-          "x": -114,
-          "y": 216
+          "x": 0.3,
+          "y": 0.14
         },
         {
           "positionName": "ST",
-          "x": 114,
-          "y": 216
+          "x": 0.7,
+          "y": 0.14
         }
       ]
     },
@@ -311,58 +311,58 @@
       "positions": [
         {
           "positionName": "GK",
-          "x": 0,
-          "y": -204
+          "x": 0.5,
+          "y": 0.84
         },
         {
           "positionName": "CB",
-          "x": -103,
-          "y": -96
+          "x": 0.32,
+          "y": 0.66
         },
         {
           "positionName": "CB",
-          "x": 103,
-          "y": -96
+          "x": 0.68,
+          "y": 0.66
         },
         {
           "positionName": "LB",
-          "x": -228,
-          "y": -84
+          "x": 0.1,
+          "y": 0.64
         },
         {
           "positionName": "RB",
-          "x": 228,
-          "y": -84
+          "x": 0.9,
+          "y": 0.64
         },
         {
           "positionName": "CDM",
-          "x": 0,
-          "y": 12
+          "x": 0.5,
+          "y": 0.48
         },
         {
           "positionName": "LM",
-          "x": -160,
-          "y": 60
+          "x": 0.22,
+          "y": 0.4
         },
         {
           "positionName": "RM",
-          "x": 160,
-          "y": 60
+          "x": 0.78,
+          "y": 0.4
         },
         {
           "positionName": "CAM",
-          "x": 0,
-          "y": 150
+          "x": 0.5,
+          "y": 0.25
         },
         {
           "positionName": "ST",
-          "x": -114,
-          "y": 204
+          "x": 0.3,
+          "y": 0.16
         },
         {
           "positionName": "ST",
-          "x": 114,
-          "y": 204
+          "x": 0.7,
+          "y": 0.16
         }
       ]
     },
@@ -372,58 +372,58 @@
       "positions": [
         {
           "positionName": "GK",
-          "x": 0,
-          "y": -204
+          "x": 0.5,
+          "y": 0.84
         },
         {
           "positionName": "CB",
-          "x": -103,
-          "y": -114
+          "x": 0.32,
+          "y": 0.69
         },
         {
           "positionName": "CB",
-          "x": 103,
-          "y": -114
+          "x": 0.68,
+          "y": 0.69
         },
         {
           "positionName": "LB",
-          "x": -217,
-          "y": -84
+          "x": 0.12,
+          "y": 0.64
         },
         {
           "positionName": "RB",
-          "x": 217,
-          "y": -84
+          "x": 0.88,
+          "y": 0.64
         },
         {
           "positionName": "CDM",
-          "x": 0,
-          "y": 18
+          "x": 0.5,
+          "y": 0.47
         },
         {
           "positionName": "CM",
-          "x": -171,
-          "y": 60
+          "x": 0.2,
+          "y": 0.4
         },
         {
           "positionName": "CM",
-          "x": 171,
-          "y": 60
+          "x": 0.8,
+          "y": 0.4
         },
         {
           "positionName": "CAM",
-          "x": 0,
-          "y": 156
+          "x": 0.5,
+          "y": 0.24
         },
         {
           "positionName": "ST",
-          "x": -114,
-          "y": 216
+          "x": 0.3,
+          "y": 0.14
         },
         {
           "positionName": "ST",
-          "x": 114,
-          "y": 216
+          "x": 0.7,
+          "y": 0.14
         }
       ]
     },
@@ -433,58 +433,58 @@
       "positions": [
         {
           "positionName": "GK",
-          "x": 0,
-          "y": -204
+          "x": 0.5,
+          "y": 0.84
         },
         {
           "positionName": "CB",
-          "x": -171,
-          "y": -108
+          "x": 0.3,
+          "y": 0.68
         },
         {
           "positionName": "CB",
-          "x": 171,
-          "y": -108
+          "x": 0.7,
+          "y": 0.68
         },
         {
           "positionName": "LB",
-          "x": -285,
-          "y": -90
+          "x": 0.1,
+          "y": 0.65
         },
         {
           "positionName": "RB",
-          "x": 285,
-          "y": -90
+          "x": 0.9,
+          "y": 0.65
         },
         {
           "positionName": "CDM",
-          "x": 0,
-          "y": -48
+          "x": 0.5,
+          "y": 0.58
         },
         {
           "positionName": "CM",
-          "x": 0,
-          "y": 216
+          "x": 0.5,
+          "y": 0.36
         },
         {
           "positionName": "LM",
-          "x": -160,
-          "y": 84
+          "x": 0.22,
+          "y": 0.36
         },
         {
           "positionName": "RM",
-          "x": 160,
-          "y": 84
+          "x": 0.78,
+          "y": 0.36
         },
         {
           "positionName": "ST",
-          "x": -74,
-          "y": 210
+          "x": 0.37,
+          "y": 0.15
         },
         {
           "positionName": "ST",
-          "x": 74,
-          "y": 210
+          "x": 0.63,
+          "y": 0.15
         }
       ]
     },
@@ -494,58 +494,58 @@
       "positions": [
         {
           "positionName": "GK",
-          "x": 0,
-          "y": -204
+          "x": 0.5,
+          "y": 0.84
         },
         {
           "positionName": "CB",
-          "x": -114,
-          "y": -96
+          "x": 0.3,
+          "y": 0.66
         },
         {
           "positionName": "CB",
-          "x": 114,
-          "y": -96
+          "x": 0.7,
+          "y": 0.66
         },
         {
           "positionName": "LB",
-          "x": -228,
-          "y": -78
+          "x": 0.1,
+          "y": 0.63
         },
         {
           "positionName": "RB",
-          "x": 228,
-          "y": -78
+          "x": 0.9,
+          "y": 0.63
         },
         {
           "positionName": "CDM",
-          "x": 0,
-          "y": 18
+          "x": 0.5,
+          "y": 0.47
         },
         {
           "positionName": "CM",
-          "x": -114,
-          "y": 84
+          "x": 0.3,
+          "y": 0.36
         },
         {
           "positionName": "CM",
-          "x": 114,
-          "y": 84
+          "x": 0.7,
+          "y": 0.36
         },
         {
           "positionName": "LM",
-          "x": -222,
-          "y": 90
+          "x": 0.11,
+          "y": 0.345
         },
         {
           "positionName": "RM",
-          "x": 222,
-          "y": 90
+          "x": 0.89,
+          "y": 0.345
         },
         {
           "positionName": "ST",
-          "x": 0,
-          "y": 210
+          "x": 0.5,
+          "y": 0.15
         }
       ]
     },
@@ -555,58 +555,58 @@
       "positions": [
         {
           "positionName": "GK",
-          "x": 0,
-          "y": -204
+          "x": 0.5,
+          "y": 0.84
         },
         {
           "positionName": "CB",
-          "x": -97,
-          "y": -96
+          "x": 0.33,
+          "y": 0.66
         },
         {
           "positionName": "CB",
-          "x": 97,
-          "y": -96
+          "x": 0.67,
+          "y": 0.66
         },
         {
           "positionName": "LB",
-          "x": -228,
-          "y": -84
+          "x": 0.1,
+          "y": 0.64
         },
         {
           "positionName": "RB",
-          "x": 228,
-          "y": -84
+          "x": 0.9,
+          "y": 0.64
         },
         {
           "positionName": "CDM",
-          "x": -86,
-          "y": 48
+          "x": 0.35,
+          "y": 0.42
         },
         {
           "positionName": "CDM",
-          "x": 86,
-          "y": 48
+          "x": 0.65,
+          "y": 0.42
         },
         {
           "positionName": "CAM",
-          "x": -211,
-          "y": 90
+          "x": 0.13,
+          "y": 0.35
         },
         {
           "positionName": "CAM",
-          "x": 211,
-          "y": 90
+          "x": 0.87,
+          "y": 0.35
         },
         {
           "positionName": "ST",
-          "x": -68,
-          "y": 210
+          "x": 0.38,
+          "y": 0.15
         },
         {
           "positionName": "ST",
-          "x": 68,
-          "y": 210
+          "x": 0.62,
+          "y": 0.15
         }
       ]
     },
@@ -616,60 +616,58 @@
       "positions": [
         {
           "positionName": "GK",
-          "position": {
-            "left": "50%",
-            "top": "84%"
-          }
+          "x": 0.5,
+          "y": 0.84
         },
         {
           "positionName": "CB",
-          "x": 0,
-          "y": -204
+          "x": 0.32,
+          "y": 0.7
         },
         {
           "positionName": "CB",
-          "x": 103,
-          "y": -120
+          "x": 0.68,
+          "y": 0.7
         },
         {
           "positionName": "LB",
-          "x": -228,
-          "y": -114
+          "x": 0.1,
+          "y": 0.69
         },
         {
           "positionName": "RB",
-          "x": 228,
-          "y": -114
+          "x": 0.9,
+          "y": 0.69
         },
         {
           "positionName": "CDM",
-          "x": -171,
-          "y": 18
+          "x": 0.2,
+          "y": 0.47
         },
         {
           "positionName": "CDM",
-          "x": 171,
-          "y": 18
+          "x": 0.8,
+          "y": 0.47
         },
         {
           "positionName": "CAM",
-          "x": 0,
-          "y": 72
+          "x": 0.5,
+          "y": 0.375
         },
         {
           "positionName": "CAM",
-          "x": -114,
-          "y": 150
+          "x": 0.3,
+          "y": 0.25
         },
         {
           "positionName": "CAM",
-          "x": 114,
-          "y": 150
+          "x": 0.7,
+          "y": 0.25
         },
         {
           "positionName": "ST",
-          "x": 0,
-          "y": 216
+          "x": 0.5,
+          "y": 0.135
         }
       ]
     },
@@ -679,58 +677,58 @@
       "positions": [
         {
           "positionName": "GK",
-          "x": 0,
-          "y": -204
+          "x": 0.5,
+          "y": 0.84
         },
         {
           "positionName": "CB",
-          "x": -108,
-          "y": -132
+          "x": 0.31,
+          "y": 0.72
         },
         {
           "positionName": "CB",
-          "x": 108,
-          "y": -132
+          "x": 0.69,
+          "y": 0.72
         },
         {
           "positionName": "LB",
-          "x": -228,
-          "y": -120
+          "x": 0.1,
+          "y": 0.7
         },
         {
           "positionName": "RB",
-          "x": 228,
-          "y": -120
+          "x": 0.9,
+          "y": 0.7
         },
         {
           "positionName": "CDM",
-          "x": -120,
-          "y": 0
+          "x": 0.29,
+          "y": 0.5
         },
         {
           "positionName": "CDM",
-          "x": 120,
-          "y": 0
+          "x": 0.71,
+          "y": 0.5
         },
         {
           "positionName": "LM",
-          "x": -228,
-          "y": 96
+          "x": 0.1,
+          "y": 0.335
         },
         {
           "positionName": "RM",
-          "x": 228,
-          "y": 96
+          "x": 0.9,
+          "y": 0.335
         },
         {
           "positionName": "CAM",
-          "x": 0,
-          "y": 72
+          "x": 0.5,
+          "y": 0.375
         },
         {
           "positionName": "ST",
-          "x": 0,
-          "y": 216
+          "x": 0.5,
+          "y": 0.135
         }
       ]
     },
@@ -740,58 +738,58 @@
       "positions": [
         {
           "positionName": "GK",
-          "x": 0,
-          "y": -204
+          "x": 0.5,
+          "y": 0.84
         },
         {
           "positionName": "CB",
-          "x": -103,
-          "y": -120
+          "x": 0.32,
+          "y": 0.7
         },
         {
           "positionName": "CB",
-          "x": 103,
-          "y": -120
+          "x": 0.68,
+          "y": 0.7
         },
         {
           "positionName": "LB",
-          "x": -228,
-          "y": -90
+          "x": 0.1,
+          "y": 0.65
         },
         {
           "positionName": "RB",
-          "x": 228,
-          "y": -90
+          "x": 0.9,
+          "y": 0.65
         },
         {
           "positionName": "CM",
-          "x": -103,
-          "y": 18
+          "x": 0.32,
+          "y": 0.47
         },
         {
           "positionName": "CM",
-          "x": 103,
-          "y": 18
+          "x": 0.68,
+          "y": 0.47
         },
         {
           "positionName": "LW",
-          "x": -222,
-          "y": 102
+          "x": 0.11,
+          "y": 0.325
         },
         {
           "positionName": "RW",
-          "x": 222,
-          "y": 102
+          "x": 0.89,
+          "y": 0.325
         },
         {
           "positionName": "ST",
-          "x": -103,
-          "y": 210
+          "x": 0.32,
+          "y": 0.15
         },
         {
           "positionName": "ST",
-          "x": 103,
-          "y": 210
+          "x": 0.68,
+          "y": 0.15
         }
       ]
     },
@@ -801,58 +799,58 @@
       "positions": [
         {
           "positionName": "GK",
-          "x": 0,
-          "y": -204
+          "x": 0.5,
+          "y": 0.84
         },
         {
           "positionName": "CB",
-          "x": -108,
-          "y": -96
+          "x": 0.31,
+          "y": 0.66
         },
         {
           "positionName": "CB",
-          "x": 108,
-          "y": -96
+          "x": 0.69,
+          "y": 0.66
         },
         {
           "positionName": "LB",
-          "x": -228,
-          "y": -84
+          "x": 0.1,
+          "y": 0.64
         },
         {
           "positionName": "RB",
-          "x": 228,
-          "y": -84
+          "x": 0.9,
+          "y": 0.64
         },
         {
           "positionName": "CM",
-          "x": 0,
-          "y": 24
+          "x": 0.5,
+          "y": 0.46
         },
         {
           "positionName": "CM",
-          "x": -182,
-          "y": 84
+          "x": 0.18,
+          "y": 0.36
         },
         {
           "positionName": "CM",
-          "x": 182,
-          "y": 84
+          "x": 0.82,
+          "y": 0.36
         },
         {
           "positionName": "CAM",
-          "x": 0,
-          "y": 168
+          "x": 0.5,
+          "y": 0.22
         },
         {
           "positionName": "ST",
-          "x": -114,
-          "y": 222
+          "x": 0.3,
+          "y": 0.13
         },
         {
           "positionName": "ST",
-          "x": 114,
-          "y": 222
+          "x": 0.7,
+          "y": 0.13
         }
       ]
     },
@@ -862,58 +860,58 @@
       "positions": [
         {
           "positionName": "GK",
-          "x": 0,
-          "y": -204
+          "x": 0.5,
+          "y": 0.84
         },
         {
           "positionName": "CB",
-          "x": -103,
-          "y": -102
+          "x": 0.32,
+          "y": 0.67
         },
         {
           "positionName": "CB",
-          "x": 103,
-          "y": -102
+          "x": 0.68,
+          "y": 0.67
         },
         {
           "positionName": "LB",
-          "x": -228,
-          "y": -84
+          "x": 0.1,
+          "y": 0.64
         },
         {
           "positionName": "RB",
-          "x": 228,
-          "y": -84
+          "x": 0.9,
+          "y": 0.64
         },
         {
           "positionName": "CM",
-          "x": 0,
-          "y": 42
+          "x": 0.5,
+          "y": 0.43
         },
         {
           "positionName": "CM",
-          "x": -171,
-          "y": 60
+          "x": 0.2,
+          "y": 0.4
         },
         {
           "positionName": "CM",
-          "x": 171,
-          "y": 60
+          "x": 0.8,
+          "y": 0.4
         },
         {
           "positionName": "CF",
-          "x": -114,
-          "y": 192
+          "x": 0.3,
+          "y": 0.175
         },
         {
           "positionName": "CF",
-          "x": 114,
-          "y": 192
+          "x": 0.7,
+          "y": 0.175
         },
         {
           "positionName": "ST",
-          "x": 0,
-          "y": 216
+          "x": 0.5,
+          "y": 0.135
         }
       ]
     },
@@ -923,58 +921,58 @@
       "positions": [
         {
           "positionName": "GK",
-          "x": 0,
-          "y": -204
+          "x": 0.5,
+          "y": 0.84
         },
         {
           "positionName": "CB",
-          "x": -103,
-          "y": -120
+          "x": 0.32,
+          "y": 0.7
         },
         {
           "positionName": "CB",
-          "x": 103,
-          "y": -120
+          "x": 0.68,
+          "y": 0.7
         },
         {
           "positionName": "LB",
-          "x": -217,
-          "y": -102
+          "x": 0.12,
+          "y": 0.67
         },
         {
           "positionName": "RB",
-          "x": 217,
-          "y": -102
+          "x": 0.88,
+          "y": 0.67
         },
         {
           "positionName": "CM",
-          "x": 0,
-          "y": 24
+          "x": 0.5,
+          "y": 0.46
         },
         {
           "positionName": "CM",
-          "x": -143,
-          "y": 36
+          "x": 0.25,
+          "y": 0.44
         },
         {
           "positionName": "CM",
-          "x": 143,
-          "y": 36
+          "x": 0.75,
+          "y": 0.44
         },
         {
           "positionName": "LW",
-          "x": -131,
-          "y": 168
+          "x": 0.27,
+          "y": 0.215
         },
         {
           "positionName": "RW",
-          "x": 131,
-          "y": 168
+          "x": 0.73,
+          "y": 0.215
         },
         {
           "positionName": "ST",
-          "x": 0,
-          "y": 198
+          "x": 0.5,
+          "y": 0.17
         }
       ]
     },
@@ -984,58 +982,58 @@
       "positions": [
         {
           "positionName": "GK",
-          "x": 0,
-          "y": -204
+          "x": 0.5,
+          "y": 0.84
         },
         {
           "positionName": "CB",
-          "x": -103,
-          "y": -120
+          "x": 0.32,
+          "y": 0.7
         },
         {
           "positionName": "CB",
-          "x": 103,
-          "y": -120
+          "x": 0.68,
+          "y": 0.7
         },
         {
           "positionName": "LB",
-          "x": -217,
-          "y": -102
+          "x": 0.12,
+          "y": 0.67
         },
         {
           "positionName": "RB",
-          "x": 217,
-          "y": -102
+          "x": 0.88,
+          "y": 0.67
         },
         {
           "positionName": "CDM",
-          "x": 0,
-          "y": -6
+          "x": 0.5,
+          "y": 0.51
         },
         {
           "positionName": "CM",
-          "x": -143,
-          "y": 36
+          "x": 0.25,
+          "y": 0.44
         },
         {
           "positionName": "CM",
-          "x": 143,
-          "y": 36
+          "x": 0.75,
+          "y": 0.44
         },
         {
           "positionName": "LW",
-          "x": -131,
-          "y": 168
+          "x": 0.27,
+          "y": 0.215
         },
         {
           "positionName": "RW",
-          "x": 131,
-          "y": 168
+          "x": 0.73,
+          "y": 0.215
         },
         {
           "positionName": "ST",
-          "x": 0,
-          "y": 198
+          "x": 0.5,
+          "y": 0.17
         }
       ]
     },
@@ -1045,58 +1043,58 @@
       "positions": [
         {
           "positionName": "GK",
-          "x": 0,
-          "y": -204
+          "x": 0.5,
+          "y": 0.84
         },
         {
           "positionName": "CB",
-          "x": -103,
-          "y": -120
+          "x": 0.32,
+          "y": 0.7
         },
         {
           "positionName": "CB",
-          "x": 103,
-          "y": -120
+          "x": 0.68,
+          "y": 0.7
         },
         {
           "positionName": "LB",
-          "x": -217,
-          "y": -102
+          "x": 0.12,
+          "y": 0.67
         },
         {
           "positionName": "RB",
-          "x": 217,
-          "y": -102
+          "x": 0.88,
+          "y": 0.67
         },
         {
           "positionName": "CDM",
-          "x": -143,
-          "y": 36
+          "x": 0.25,
+          "y": 0.44
         },
         {
           "positionName": "CDM",
-          "x": 143,
-          "y": 36
+          "x": 0.75,
+          "y": 0.44
         },
         {
           "positionName": "CM",
-          "x": 0,
-          "y": 60
+          "x": 0.5,
+          "y": 0.4
         },
         {
           "positionName": "LW",
-          "x": -131,
-          "y": 168
+          "x": 0.27,
+          "y": 0.215
         },
         {
           "positionName": "RW",
-          "x": 131,
-          "y": 168
+          "x": 0.73,
+          "y": 0.215
         },
         {
           "positionName": "ST",
-          "x": 0,
-          "y": 198
+          "x": 0.5,
+          "y": 0.17
         }
       ]
     },
@@ -1106,58 +1104,58 @@
       "positions": [
         {
           "positionName": "GK",
-          "x": 0,
-          "y": -204
+          "x": 0.5,
+          "y": 0.84
         },
         {
           "positionName": "CB",
-          "x": -103,
-          "y": -120
+          "x": 0.32,
+          "y": 0.7
         },
         {
           "positionName": "CB",
-          "x": 103,
-          "y": -120
+          "x": 0.68,
+          "y": 0.7
         },
         {
           "positionName": "LB",
-          "x": -217,
-          "y": -102
+          "x": 0.12,
+          "y": 0.67
         },
         {
           "positionName": "RB",
-          "x": 217,
-          "y": -102
+          "x": 0.88,
+          "y": 0.67
         },
         {
           "positionName": "CM",
-          "x": -131,
-          "y": 36
+          "x": 0.27,
+          "y": 0.44
         },
         {
           "positionName": "CM",
-          "x": 131,
-          "y": 36
+          "x": 0.73,
+          "y": 0.44
         },
         {
           "positionName": "CAM",
-          "x": 0,
-          "y": 60
+          "x": 0.5,
+          "y": 0.4
         },
         {
           "positionName": "LW",
-          "x": -131,
-          "y": 168
+          "x": 0.27,
+          "y": 0.215
         },
         {
           "positionName": "RW",
-          "x": 131,
-          "y": 168
+          "x": 0.73,
+          "y": 0.215
         },
         {
           "positionName": "ST",
-          "x": 0,
-          "y": 198
+          "x": 0.5,
+          "y": 0.17
         }
       ]
     },
@@ -1167,58 +1165,58 @@
       "positions": [
         {
           "positionName": "GK",
-          "x": 0,
-          "y": -204
+          "x": 0.5,
+          "y": 0.84
         },
         {
           "positionName": "CB",
-          "x": -103,
-          "y": -120
+          "x": 0.32,
+          "y": 0.7
         },
         {
           "positionName": "CB",
-          "x": 103,
-          "y": -120
+          "x": 0.68,
+          "y": 0.7
         },
         {
           "positionName": "LB",
-          "x": -217,
-          "y": -102
+          "x": 0.12,
+          "y": 0.67
         },
         {
           "positionName": "RB",
-          "x": 217,
-          "y": -102
+          "x": 0.88,
+          "y": 0.67
         },
         {
           "positionName": "CDM",
-          "x": 0,
-          "y": 12
+          "x": 0.5,
+          "y": 0.48
         },
         {
           "positionName": "CM",
-          "x": -120,
-          "y": 42
+          "x": 0.29,
+          "y": 0.43
         },
         {
           "positionName": "CM",
-          "x": 120,
-          "y": 42
+          "x": 0.71,
+          "y": 0.43
         },
         {
           "positionName": "LW",
-          "x": -131,
-          "y": 180
+          "x": 0.27,
+          "y": 0.2
         },
         {
           "positionName": "RW",
-          "x": 131,
-          "y": 180
+          "x": 0.73,
+          "y": 0.2
         },
         {
           "positionName": "CF",
-          "x": 0,
-          "y": 150
+          "x": 0.5,
+          "y": 0.25
         }
       ]
     },
@@ -1228,58 +1226,58 @@
       "positions": [
         {
           "positionName": "GK",
-          "x": 0,
-          "y": -204
+          "x": 0.5,
+          "y": 0.84
         },
         {
           "positionName": "CB",
-          "x": -114,
-          "y": -108
+          "x": 0.3,
+          "y": 0.68
         },
         {
           "positionName": "CB",
-          "x": 114,
-          "y": -108
+          "x": 0.7,
+          "y": 0.68
         },
         {
           "positionName": "LB",
-          "x": -228,
-          "y": -84
+          "x": 0.1,
+          "y": 0.64
         },
         {
           "positionName": "RB",
-          "x": 228,
-          "y": -84
+          "x": 0.9,
+          "y": 0.64
         },
         {
           "positionName": "CM",
-          "x": -114,
-          "y": 48
+          "x": 0.3,
+          "y": 0.42
         },
         {
           "positionName": "CM",
-          "x": 114,
-          "y": 48
+          "x": 0.7,
+          "y": 0.42
         },
         {
           "positionName": "LM",
-          "x": -228,
-          "y": 72
+          "x": 0.1,
+          "y": 0.38
         },
         {
           "positionName": "RM",
-          "x": 228,
-          "y": 72
+          "x": 0.9,
+          "y": 0.38
         },
         {
           "positionName": "CF",
-          "x": 0,
-          "y": 90
+          "x": 0.5,
+          "y": 0.345
         },
         {
           "positionName": "ST",
-          "x": 0,
-          "y": 228
+          "x": 0.5,
+          "y": 0.12
         }
       ]
     },
@@ -1289,58 +1287,58 @@
       "positions": [
         {
           "positionName": "GK",
-          "x": 0,
-          "y": -204
+          "x": 0.5,
+          "y": 0.84
         },
         {
           "positionName": "CB",
-          "x": -114,
-          "y": -108
+          "x": 0.3,
+          "y": 0.68
         },
         {
           "positionName": "CB",
-          "x": 114,
-          "y": -108
+          "x": 0.7,
+          "y": 0.68
         },
         {
           "positionName": "LB",
-          "x": -228,
-          "y": -84
+          "x": 0.1,
+          "y": 0.64
         },
         {
           "positionName": "RB",
-          "x": 228,
-          "y": -84
+          "x": 0.9,
+          "y": 0.64
         },
         {
           "positionName": "CM",
-          "x": -120,
-          "y": 48
+          "x": 0.285,
+          "y": 0.42
         },
         {
           "positionName": "CM",
-          "x": 120,
-          "y": 48
+          "x": 0.715,
+          "y": 0.42
         },
         {
           "positionName": "LM",
-          "x": -228,
-          "y": 72
+          "x": 0.95,
+          "y": 0.38
         },
         {
           "positionName": "RM",
-          "x": 228,
-          "y": 72
+          "x": 0.905,
+          "y": 0.38
         },
         {
           "positionName": "CAM",
-          "x": 0,
-          "y": 84
+          "x": 0.5,
+          "y": 0.36
         },
         {
           "positionName": "ST",
-          "x": 0,
-          "y": 216
+          "x": 0.5,
+          "y": 0.14
         }
       ]
     },
@@ -1350,58 +1348,58 @@
       "positions": [
         {
           "positionName": "GK",
-          "x": 0,
-          "y": -204
+          "x": 0.5,
+          "y": 0.84
         },
         {
           "positionName": "CB",
-          "x": -108,
-          "y": -96
+          "x": 0.31,
+          "y": 0.66
         },
         {
           "positionName": "CB",
-          "x": 108,
-          "y": -96
+          "x": 0.69,
+          "y": 0.66
         },
         {
           "positionName": "LB",
-          "x": -222,
-          "y": -84
+          "x": 0.11,
+          "y": 0.64
         },
         {
           "positionName": "RB",
-          "x": 222,
-          "y": -84
+          "x": 0.89,
+          "y": 0.64
         },
         {
           "positionName": "CM",
-          "x": -86,
-          "y": 48
+          "x": 0.35,
+          "y": 0.42
         },
         {
           "positionName": "CM",
-          "x": 86,
-          "y": 48
+          "x": 0.65,
+          "y": 0.42
         },
         {
           "positionName": "LM",
-          "x": -200,
-          "y": 60
+          "x": 0.15,
+          "y": 0.4
         },
         {
           "positionName": "RM",
-          "x": 200,
-          "y": 60
+          "x": 0.85,
+          "y": 0.4
         },
         {
           "positionName": "ST",
-          "x": -97,
-          "y": 192
+          "x": 0.33,
+          "y": 0.18
         },
         {
           "positionName": "ST",
-          "x": 97,
-          "y": 192
+          "x": 0.67,
+          "y": 0.18
         }
       ]
     },
@@ -1411,58 +1409,58 @@
       "positions": [
         {
           "positionName": "GK",
-          "x": 0,
-          "y": -204
+          "x": 0.5,
+          "y": 0.84
         },
         {
           "positionName": "CB",
-          "x": -108,
-          "y": -96
+          "x": 0.31,
+          "y": 0.66
         },
         {
           "positionName": "CB",
-          "x": 108,
-          "y": -96
+          "x": 0.69,
+          "y": 0.66
         },
         {
           "positionName": "LB",
-          "x": -222,
-          "y": -84
+          "x": 0.11,
+          "y": 0.64
         },
         {
           "positionName": "RB",
-          "x": 222,
-          "y": -84
+          "x": 0.89,
+          "y": 0.64
         },
         {
           "positionName": "CDM",
-          "x": -86,
-          "y": 48
+          "x": 0.35,
+          "y": 0.42
         },
         {
           "positionName": "CDM",
-          "x": 86,
-          "y": 48
+          "x": 0.65,
+          "y": 0.42
         },
         {
           "positionName": "LM",
-          "x": -200,
-          "y": 60
+          "x": 0.15,
+          "y": 0.4
         },
         {
           "positionName": "RM",
-          "x": 200,
-          "y": 60
+          "x": 0.85,
+          "y": 0.4
         },
         {
           "positionName": "ST",
-          "x": -97,
-          "y": 192
+          "x": 0.33,
+          "y": 0.18
         },
         {
           "positionName": "ST",
-          "x": 97,
-          "y": 192
+          "x": 0.67,
+          "y": 0.18
         }
       ]
     },
@@ -1472,58 +1470,58 @@
       "positions": [
         {
           "positionName": "GK",
-          "x": 0,
-          "y": -204
+          "x": 0.5,
+          "y": 0.84
         },
         {
           "positionName": "CB",
-          "x": -114,
-          "y": -96
+          "x": 0.3,
+          "y": 0.66
         },
         {
           "positionName": "CB",
-          "x": 114,
-          "y": 96
+          "x": 0.7,
+          "y": 0.66
         },
         {
           "positionName": "LB",
-          "x": -228,
-          "y": -84
+          "x": 0.1,
+          "y": 0.64
         },
         {
           "positionName": "RB",
-          "x": 228,
-          "y": -84
+          "x": 0.9,
+          "y": 0.64
         },
         {
           "positionName": "CM",
-          "x": 0,
-          "y": 24
+          "x": 0.5,
+          "y": 0.46
         },
         {
           "positionName": "LM",
-          "x": -228,
-          "y": 60
+          "x": 0.1,
+          "y": 0.4
         },
         {
           "positionName": "RM",
-          "x": 228,
-          "y": 60
+          "x": 0.9,
+          "y": 0.4
         },
         {
           "positionName": "CAM",
-          "x": -114,
-          "y": 96
+          "x": 0.3,
+          "y": 0.34
         },
         {
           "positionName": "CAM",
-          "x": 114,
-          "y": 96
+          "x": 0.7,
+          "y": 0.34
         },
         {
           "positionName": "ST",
-          "x": 0,
-          "y": 204
+          "x": 0.5,
+          "y": 0.16
         }
       ]
     },
@@ -1533,58 +1531,58 @@
       "positions": [
         {
           "positionName": "GK",
-          "x": 0,
-          "y": -204
+          "x": 0.5,
+          "y": 0.84
         },
         {
           "positionName": "CB",
-          "x": -114,
-          "y": -96
+          "x": 0.3,
+          "y": 0.66
         },
         {
           "positionName": "CB",
-          "x": 114,
-          "y": -96
+          "x": 0.7,
+          "y": 0.66
         },
         {
           "positionName": "LB",
-          "x": -228,
-          "y": -84
+          "x": 0.1,
+          "y": 0.64
         },
         {
           "positionName": "RB",
-          "x": 228,
-          "y": -84
+          "x": 0.9,
+          "y": 0.64
         },
         {
           "positionName": "CM",
-          "x": 0,
-          "y": 42
+          "x": 0.5,
+          "y": 0.43
         },
         {
           "positionName": "CM",
-          "x": -114,
-          "y": 60
+          "x": 0.3,
+          "y": 0.4
         },
         {
           "positionName": "CM",
-          "x": 114,
-          "y": 60
+          "x": 0.7,
+          "y": 0.4
         },
         {
           "positionName": "LM",
-          "x": -228,
-          "y": 90
+          "x": 0.1,
+          "y": 0.35
         },
         {
           "positionName": "RM",
-          "x": 228,
-          "y": 90
+          "x": 0.9,
+          "y": 0.35
         },
         {
           "positionName": "ST",
-          "x": 0,
-          "y": 204
+          "x": 0.5,
+          "y": 0.16
         }
       ]
     },
@@ -1594,58 +1592,58 @@
       "positions": [
         {
           "positionName": "GK",
-          "x": 0,
-          "y": -204
+          "x": 0.5,
+          "y": 0.84
         },
         {
           "positionName": "CB",
-          "x": 0,
-          "y": -66
+          "x": 0.5,
+          "y": 0.61
         },
         {
           "positionName": "CB",
-          "x": -114,
-          "y": -72
+          "x": 0.3,
+          "y": 0.62
         },
         {
           "positionName": "CB",
-          "x": 114,
-          "y": -72
+          "x": 0.7,
+          "y": 0.62
         },
         {
           "positionName": "LWB",
-          "x": -228,
-          "y": -36
+          "x": 0.1,
+          "y": 0.56
         },
         {
           "positionName": "RWB",
-          "x": 228,
-          "y": -36
+          "x": 0.9,
+          "y": 0.56
         },
         {
           "positionName": "CM",
-          "x": -108,
-          "y": 66
+          "x": 0.31,
+          "y": 0.39
         },
         {
           "positionName": "CM",
-          "x": 108,
-          "y": 66
+          "x": 0.69,
+          "y": 0.39
         },
         {
           "positionName": "CAM",
-          "x": 0,
-          "y": 174
+          "x": 0.5,
+          "y": 0.21
         },
         {
           "positionName": "ST",
-          "x": -114,
-          "y": 210
+          "x": 0.3,
+          "y": 0.15
         },
         {
           "positionName": "ST",
-          "x": 114,
-          "y": 210
+          "x": 0.7,
+          "y": 0.15
         }
       ]
     },
@@ -1655,58 +1653,58 @@
       "positions": [
         {
           "positionName": "GK",
-          "x": 0,
-          "y": -204
+          "x": 0.5,
+          "y": 0.84
         },
         {
           "positionName": "CB",
-          "x": 0,
-          "y": -66
+          "x": 0.5,
+          "y": 0.61
         },
         {
           "positionName": "CB",
-          "x": -114,
-          "y": -90
+          "x": 0.3,
+          "y": 0.65
         },
         {
           "positionName": "CB",
-          "x": 114,
-          "y": -90
+          "x": 0.7,
+          "y": 0.65
         },
         {
           "positionName": "LWB",
-          "x": -228,
-          "y": -36
+          "x": 0.1,
+          "y": 0.56
         },
         {
           "positionName": "RWB",
-          "x": 228,
-          "y": -36
+          "x": 0.9,
+          "y": 0.56
         },
         {
           "positionName": "CM",
-          "x": -97,
-          "y": 48
+          "x": 0.33,
+          "y": 0.42
         },
         {
           "positionName": "CM",
-          "x": 97,
-          "y": 48
+          "x": 0.67,
+          "y": 0.42
         },
         {
           "positionName": "LW",
-          "x": -114,
-          "y": 186
+          "x": 0.3,
+          "y": 0.19
         },
         {
           "positionName": "RW",
-          "x": 114,
-          "y": 186
+          "x": 0.7,
+          "y": 0.19
         },
         {
           "positionName": "ST",
-          "x": 0,
-          "y": 216
+          "x": 0.5,
+          "y": 0.14
         }
       ]
     },
@@ -1716,58 +1714,58 @@
       "positions": [
         {
           "positionName": "GK",
-          "x": 0,
-          "y": -204
+          "x": 0.5,
+          "y": 0.84
         },
         {
           "positionName": "CB",
-          "x": 0,
-          "y": -66
+          "x": 0.5,
+          "y": 0.61
         },
         {
           "positionName": "CB",
-          "x": -114,
-          "y": -84
+          "x": 0.3,
+          "y": 0.64
         },
         {
           "positionName": "CB",
-          "x": 114,
-          "y": -84
+          "x": 0.7,
+          "y": 0.64
         },
         {
           "positionName": "LWB",
-          "x": -228,
-          "y": -54
+          "x": 0.1,
+          "y": 0.59
         },
         {
           "positionName": "RWB",
-          "x": 228,
-          "y": -54
+          "x": 0.9,
+          "y": 0.59
         },
         {
           "positionName": "CDM",
-          "x": 0,
-          "y": 72
+          "x": 0.5,
+          "y": 0.38
         },
         {
           "positionName": "CM",
-          "x": -160,
-          "y": 96
+          "x": 0.22,
+          "y": 0.34
         },
         {
           "positionName": "CM",
-          "x": 160,
-          "y": 96
+          "x": 0.78,
+          "y": 0.34
         },
         {
           "positionName": "ST",
-          "x": -74,
-          "y": 222
+          "x": 0.37,
+          "y": 0.13
         },
         {
           "positionName": "ST",
-          "x": 74,
-          "y": 222
+          "x": 0.63,
+          "y": 0.13
         }
       ]
     },
@@ -1777,58 +1775,58 @@
       "positions": [
         {
           "positionName": "GK",
-          "x": 0,
-          "y": -204
+          "x": 0.5,
+          "y": 0.84
         },
         {
           "positionName": "CB",
-          "x": 0,
-          "y": -66
+          "x": 0.5,
+          "y": 0.61
         },
         {
           "positionName": "CB",
-          "x": -114,
-          "y": -84
+          "x": 0.3,
+          "y": 0.64
         },
         {
           "positionName": "CB",
-          "x": 114,
-          "y": -84
+          "x": 0.7,
+          "y": 0.64
         },
         {
           "positionName": "LWB",
-          "x": -228,
-          "y": -54
+          "x": 0.1,
+          "y": 0.59
         },
         {
           "positionName": "RWB",
-          "x": 228,
-          "y": -54
+          "x": 0.9,
+          "y": 0.59
         },
         {
           "positionName": "CM",
-          "x": -86,
-          "y": 72
+          "x": 0.35,
+          "y": 0.38
         },
         {
           "positionName": "CM",
-          "x": -86,
-          "y": 72
+          "x": 0.65,
+          "y": 0.38
         },
         {
           "positionName": "LM",
-          "x": -200,
-          "y": 84
+          "x": 0.15,
+          "y": 0.36
         },
         {
           "positionName": "RM",
-          "x": 200,
-          "y": 84
+          "x": 0.85,
+          "y": 0.36
         },
         {
           "positionName": "ST",
-          "x": 0,
-          "y": 204
+          "x": 0.5,
+          "y": 0.16
         }
       ]
     }

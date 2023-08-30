@@ -17,11 +17,14 @@ public class FormationSelection : MonoBehaviour
     void Awake()
     {
         GetRandomFormations(5);
+        UpdateFormationDisplay(randomFormationList[0]);
         ChangeFormationButtons();
     }
 
     private void ChangeFormationButtons()
     {
+        UIHandler uIHandler = GameObject.FindFirstObjectByType<UIHandler>();
+
         for (int i = 0; i < randomFormationList.Count; i++)
         {
             Sprite formationImage = Resources.Load<Sprite>($"Images/Formations/{Path.GetFileNameWithoutExtension(randomFormationList[i].images)}");
@@ -40,6 +43,12 @@ public class FormationSelection : MonoBehaviour
 
             int tempI = i;
 
+            Button buttonComponent = formationButtons[tempI].GetComponent<Button>();
+            if (buttonComponent != null)
+            {
+                buttonComponent.onClick.AddListener(() => uIHandler.FormationSelected(randomFormationList[tempI]));
+            }
+
             EventTrigger trigger = formationButtons[tempI].GetComponent<EventTrigger>();
             if (trigger == null)
             {
@@ -55,25 +64,21 @@ public class FormationSelection : MonoBehaviour
 
     private void UpdateFormationDisplay(Formation formation)
     {
-        Debug.Log(formation.positions.Count);
-        Debug.Log(formationDisplayPositions.Count);
         for (int i = 0; i < formationDisplayPositions.Count; i++)
         {
             int localIndex = i;
             formationDisplayPositions[localIndex].DOLocalMove(Vector2.zero, 0.2f).OnComplete(() =>
             {
                 formationDisplayPositions[localIndex].GetComponentInChildren<TextMeshProUGUI>().text = formation.positions[localIndex].positionName;
-                float x = ((formation.positions[localIndex].position.x / 100) * FormationFieldTransform.sizeDelta.x - (FormationFieldTransform.sizeDelta.x / 2));
-                float y = ((formation.positions[localIndex].position.y / 100) * FormationFieldTransform.sizeDelta.y - (FormationFieldTransform.sizeDelta.y / 2));
-                Debug.Log("Posi:" + formation.positions[localIndex].positionName + ", x:" + x + ", y:" + y);
-                formationDisplayPositions[localIndex].DOLocalMove(new Vector2(x, -y), 0.2f);
+                float x = (formation.positions[localIndex].x * FormationFieldTransform.sizeDelta.x - (FormationFieldTransform.sizeDelta.x / 2));
+                float y = (formation.positions[localIndex].y * FormationFieldTransform.sizeDelta.y - (FormationFieldTransform.sizeDelta.y / 2));
+                formationDisplayPositions[localIndex].DOLocalMove(new Vector2(x, -y), 0.4f);
             });
         }
     }
 
     private void GetRandomFormations(int count)
     {
-        Debug.Log(FormationFieldTransform.sizeDelta);
         List<Formation> allFormations = sqliteHandler.LoadAllFormations();
         List<Formation> randomFormations = new List<Formation>();
 

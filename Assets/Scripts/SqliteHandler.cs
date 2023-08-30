@@ -39,27 +39,27 @@ public class SqliteHandler : MonoBehaviour
             return;
         }
 
-        JsonFormations loadedFormations = JsonUtility.FromJson<JsonFormations>(jsonAsset.text);
+        Formations loadedFormations = JsonUtility.FromJson<Formations>(jsonAsset.text);
 
-        foreach (JsonFormation jsonFormation in loadedFormations.formations)
+        foreach (Formation formation in loadedFormations.formations)
         {
             using (IDbCommand cmd = dbConnection.CreateCommand())
             {
                 cmd.CommandText = "INSERT OR IGNORE INTO Formation (formationName, images) VALUES (@formationName, @images)";
-                cmd.Parameters.Add(new SqliteParameter("@formationName", jsonFormation.formationName));
-                cmd.Parameters.Add(new SqliteParameter("@images", jsonFormation.images));
+                cmd.Parameters.Add(new SqliteParameter("@formationName", formation.formationName));
+                cmd.Parameters.Add(new SqliteParameter("@images", formation.images));
                 cmd.ExecuteNonQuery();
             }
 
-            foreach (JsonPositionWrapper jsonPosWrapper in jsonFormation.positions)
+            foreach (Position pos in formation.positions)
             {
                 using (IDbCommand cmd = dbConnection.CreateCommand())
                 {
-                    cmd.CommandText = "INSERT OR IGNORE INTO Position (formationName, positionName, leftPosition, topPosition) VALUES (@formationName, @positionName, @leftPosition, @topPosition)";
-                    cmd.Parameters.Add(new SqliteParameter("@formationName", jsonFormation.formationName));
-                    cmd.Parameters.Add(new SqliteParameter("@positionName", jsonPosWrapper.positionName));
-                    cmd.Parameters.Add(new SqliteParameter("@leftPosition", jsonPosWrapper.position.left));
-                    cmd.Parameters.Add(new SqliteParameter("@topPosition", jsonPosWrapper.position.top));
+                    cmd.CommandText = "INSERT OR IGNORE INTO Position (formationName, positionName, xPosition, yPosition) VALUES (@formationName, @positionName, @xPosition, @yPosition)";
+                    cmd.Parameters.Add(new SqliteParameter("@formationName", formation.formationName));
+                    cmd.Parameters.Add(new SqliteParameter("@positionName", pos.positionName));
+                    cmd.Parameters.Add(new SqliteParameter("@xPosition", DbType.Double) { Value = pos.x });
+                    cmd.Parameters.Add(new SqliteParameter("@yPosition", DbType.Double) { Value = pos.y });
                     cmd.ExecuteNonQuery();
                 }
             }
@@ -112,13 +112,13 @@ public class SqliteHandler : MonoBehaviour
             {
                 while (reader.Read())
                 {
-                    float xPercentage = float.Parse(reader.GetString(3).TrimEnd('%'));
-                    float yPercentage = float.Parse(reader.GetString(4).TrimEnd('%'));
-
+                    float xPosition = reader.GetFloat(reader.GetOrdinal("xPosition"));
+                    float yPosition = reader.GetFloat(reader.GetOrdinal("yPosition"));
                     Position position = new Position
                     {
                         positionName = reader.GetString(2),
-                        position = new Vector2(xPercentage, yPercentage)
+                        x = xPosition,
+                        y = yPosition,
                     };
                     positions.Add(position);
                 }
@@ -134,48 +134,6 @@ public class SqliteHandler : MonoBehaviour
         IDbConnection dbConnection = new SqliteConnection(dbUri);
         dbConnection.Open();
 
-        // Player Table
-        using (IDbCommand cmd = dbConnection.CreateCommand())
-        {
-            cmd.CommandText = "CREATE TABLE IF NOT EXISTS Player (id TEXT PRIMARY KEY, image TEXT, name TEXT, cardId TEXT, nationId TEXT, clubId TEXT)";
-            cmd.ExecuteNonQuery();
-        }
-
-        // Attributes Table
-        using (IDbCommand cmd = dbConnection.CreateCommand())
-        {
-            cmd.CommandText = "CREATE TABLE IF NOT EXISTS Attributes (playerId TEXT, attribute1 INTEGER, attribute2 INTEGER, attribute3 INTEGER, attribute4 INTEGER, attribute5 INTEGER, attribute6 INTEGER, rating INTEGER, position TEXT, altPosition TEXT, FOREIGN KEY(playerId) REFERENCES Player(id))";
-            cmd.ExecuteNonQuery();
-        }
-
-        // Card Table
-        using (IDbCommand cmd = dbConnection.CreateCommand())
-        {
-            cmd.CommandText = "CREATE TABLE IF NOT EXISTS Card (id TEXT PRIMARY KEY, image TEXT, name TEXT, quality TEXT, overlayBackgroundColor TEXT, overlayDividerColor TEXT, overlayTextColor TEXT)";
-            cmd.ExecuteNonQuery();
-        }
-
-        // Nation Table
-        using (IDbCommand cmd = dbConnection.CreateCommand())
-        {
-            cmd.CommandText = "CREATE TABLE IF NOT EXISTS Nation (id TEXT PRIMARY KEY, image TEXT, name TEXT)";
-            cmd.ExecuteNonQuery();
-        }
-
-        // League Table
-        using (IDbCommand cmd = dbConnection.CreateCommand())
-        {
-            cmd.CommandText = "CREATE TABLE IF NOT EXISTS League (id TEXT PRIMARY KEY, image TEXT, name TEXT, nationId TEXT, FOREIGN KEY(nationId) REFERENCES Nation(id))";
-            cmd.ExecuteNonQuery();
-        }
-
-        // Club Table
-        using (IDbCommand cmd = dbConnection.CreateCommand())
-        {
-            cmd.CommandText = "CREATE TABLE IF NOT EXISTS Club (id TEXT PRIMARY KEY, image TEXT, name TEXT, leagueId TEXT, FOREIGN KEY(leagueId) REFERENCES League(id))";
-            cmd.ExecuteNonQuery();
-        }
-
         // Formation Table
         using (IDbCommand cmd = dbConnection.CreateCommand())
         {
@@ -186,12 +144,10 @@ public class SqliteHandler : MonoBehaviour
         // Position Table
         using (IDbCommand cmd = dbConnection.CreateCommand())
         {
-            cmd.CommandText = "CREATE TABLE IF NOT EXISTS Position (id INTEGER PRIMARY KEY AUTOINCREMENT, formationName TEXT, positionName TEXT, leftPosition TEXT, topPosition TEXT, FOREIGN KEY(formationName) REFERENCES Formation(formationName))";
+            cmd.CommandText = "CREATE TABLE IF NOT EXISTS Position (id INTEGER PRIMARY KEY AUTOINCREMENT, formationName TEXT, positionName TEXT, xPosition REAL, yPosition REAL, FOREIGN KEY(formationName) REFERENCES Formation(formationName))";
             cmd.ExecuteNonQuery();
         }
 
         return dbConnection;
     }
-
-
 }
