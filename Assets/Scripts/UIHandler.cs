@@ -6,6 +6,7 @@ using UnityEngine.UI;
 public class UIHandler : MonoBehaviour
 {
     [SerializeField] private GameObject formationSelection;
+    [SerializeField] private GameObject playerSelection;
     [SerializeField] private GameObject menuObject;
     private bool PlayerMenuOpen = false;
 
@@ -15,6 +16,16 @@ public class UIHandler : MonoBehaviour
     public delegate void MenuToogleDelegate();
     public event MenuToogleDelegate OnMenuToogle;
 
+    public void ActivatePlayerSelection(int minRating, int minPlayer, string[] playerNames, string position = null)
+    {
+        playerSelection.SetActive(true);
+        playerSelection.GetComponent<PlayerSelection>().StartPlayerSelection(minRating, minPlayer, playerNames, position);
+    }
+
+    public void DeactivatePlayerSelection()
+    {
+        playerSelection.SetActive(false);
+    }
 
     public void StartFormationSelection()
     {

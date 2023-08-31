@@ -1,5 +1,7 @@
+using System;
 using System.Collections.Generic;
 using System.IO;
+using JetBrains.Annotations;
 using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
@@ -39,7 +41,7 @@ public class Card : MonoBehaviour
         }
         else
         {
-
+            GetComponent<Image>().sprite = LoadImage(Path.Combine(Application.persistentDataPath, "images", "card", player.card.image));
         }
 
 
@@ -62,16 +64,18 @@ public class Card : MonoBehaviour
         for (int i = 0; i < attributes.Count; i++)
         {
             attributes[i].value.text = player.attributes.attribute[i].value.ToString();
-            attributes[i].label.text = player.attributes.attribute[i].label;
+            attributes[i].label.text = player.attributes.attribute[i].label.ToUpper().Substring(0, Math.Min(player.attributes.attribute[i].label.Length, 3));
         }
 
-        if (player.card.id == 1)
+        if (player.card.id == 2)
         {
 
         }
         else
         {
-            //TODO: Load Images
+            nationImage.GetComponent<RawImage>().texture = LoadImage(Path.Combine(Application.persistentDataPath, "images", "nation", player.nation.image)).texture;
+            leagueImage.GetComponent<RawImage>().texture = LoadImage(Path.Combine(Application.persistentDataPath, "images", "league", player.club.league.image)).texture;
+            clubImage.GetComponent<RawImage>().texture = LoadImage(Path.Combine(Application.persistentDataPath, "images", "club", player.club.image)).texture;
             nationImage.SetActive(true);
             leagueImage.SetActive(false);
             clubImage.SetActive(true);
@@ -102,15 +106,63 @@ public class Card : MonoBehaviour
         {
             byte[] imageData = File.ReadAllBytes(imagePath);
             Texture2D texture = new Texture2D(2, 2);
-            texture.LoadImage(imageData);
 
-            Sprite newSprite = Sprite.Create(texture, new Rect(0, 0, texture.width, texture.height), Vector2.one * 0.5f);
+            texture.LoadImage(imageData);
+            Texture2D trimmedTexture = RemoveTransparentBorder(texture);
+            Sprite newSprite = Sprite.Create(trimmedTexture, new Rect(0, 0, trimmedTexture.width, trimmedTexture.height), Vector2.one * 0.5f);
             return newSprite;
         }
         else
         {
             Debug.LogError("Bild nicht gefunden: " + imagePath);
             return null;
+        }
+
+        static Texture2D RemoveTransparentBorder(Texture2D sourceTexture)
+        {
+            Color32[] pixels = sourceTexture.GetPixels32();
+            int width = sourceTexture.width;
+            int height = sourceTexture.height;
+
+            int left = width;
+            int right = 0;
+            int top = height;
+            int bottom = 0;
+
+            for (int y = 0; y < height; y++)
+            {
+                for (int x = 0; x < width; x++)
+                {
+                    Color32 pixel = pixels[y * width + x];
+                    if (pixel.a != 0)
+                    {
+                        left = Mathf.Min(left, x);
+                        right = Mathf.Max(right, x);
+                        top = Mathf.Min(top, y);
+                        bottom = Mathf.Max(bottom, y);
+                    }
+                }
+            }
+
+            int newWidth = right - left + 1;
+            int newHeight = bottom - top + 1;
+
+            Texture2D trimmedTexture = new Texture2D(newWidth, newHeight, TextureFormat.ARGB32, false);
+            Color32[] trimmedPixels = new Color32[newWidth * newHeight];
+
+            for (int y = top; y <= bottom; y++)
+            {
+                for (int x = left; x <= right; x++)
+                {
+                    Color32 pixel = pixels[y * width + x];
+                    trimmedPixels[(y - top) * newWidth + (x - left)] = pixel;
+                }
+            }
+
+            trimmedTexture.SetPixels32(trimmedPixels);
+            trimmedTexture.Apply();
+
+            return trimmedTexture;
         }
     }
 }

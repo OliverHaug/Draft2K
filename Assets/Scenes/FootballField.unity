@@ -1675,7 +1675,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &271707328
 RectTransform:
   m_ObjectHideFlags: 0
@@ -1755,6 +1755,7 @@ MonoBehaviour:
   - {fileID: 747573960}
   - {fileID: 549566470}
   loadingText: {fileID: 1632804537}
+  dataLoader: {fileID: 767076192}
 --- !u!1 &271980874
 GameObject:
   m_ObjectHideFlags: 0
@@ -5599,6 +5600,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   formationSelection: {fileID: 360534457}
+  playerSelection: {fileID: 271707327}
   menuObject: {fileID: 1509284500}
 --- !u!114 &767076191
 MonoBehaviour:

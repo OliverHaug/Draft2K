@@ -3,26 +3,20 @@ using System.Collections;
 using System.Collections.Generic;
 using System.IO;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class PlayerSelection : MonoBehaviour
 {
     [SerializeField] private List<GameObject> playerCards;
     [SerializeField] private GameObject loadingText;
-    DataLoader dataLoader;
+    [SerializeField] private DataLoader dataLoader;
     private List<PlayerModel> randomPlayers;
 
-    void Start()
+    public void StartPlayerSelection(int minRating, int minPlayers, string[] playerNames, string position = null)
     {
-        dataLoader = GameObject.FindFirstObjectByType<DataLoader>();
-    }
-    public void LoadRandomPlayers()
-    {
-        int minRating = 80;
-        int minPlayers = 5;
-        string[] playerNames = new string[0];
-        //StartCoroutine(LoadRandomPlayersCoroutine(minRating, minPlayers, playerNames));
+
         loadingText.SetActive(true);
-        dataLoader.GetRandomPlayers(minRating, minPlayers, playerNames, null, (players) =>
+        dataLoader.GetRandomPlayers(minRating, minPlayers, playerNames, position, (players) =>
         {
             randomPlayers = new List<PlayerModel>(players);
 
@@ -68,7 +62,24 @@ public class PlayerSelection : MonoBehaviour
             {
                 playerCards[i].GetComponent<Card>().CreateCard(randomPlayers[i]);
                 playerCards[i].SetActive(true);
+
+                Button playerButton = playerCards[i].GetComponent<Button>();
+                if (playerButton != null)
+                {
+                    int playerIndex = i;
+                    playerButton.onClick.AddListener(() => OnPlayerClick(playerIndex));
+                }
             }
+        }
+    }
+
+    private void OnPlayerClick(int playerIndex)
+    {
+        FieldHandler fieldHandler = GameObject.FindFirstObjectByType<FieldHandler>();
+        if (fieldHandler != null)
+        {
+            fieldHandler.PlacePlayerAtPosition(randomPlayers[playerIndex]);
+
         }
     }
 }

@@ -22,9 +22,11 @@ public class DraftHandler : MonoBehaviour
     {
         selectedFormation = formation;
         FieldHandler fieldHandler = GameObject.FindFirstObjectByType<FieldHandler>();
+
         if (fieldHandler != null)
         {
             fieldHandler.StartDraftWithFormation(selectedFormation);
+            uIHandler.ActivatePlayerSelection(80, 5, new string[0]);
         }
     }
 

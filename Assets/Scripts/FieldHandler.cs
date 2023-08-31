@@ -44,4 +44,9 @@ public class FieldHandler : MonoBehaviour
             }
         }
     }
+
+    public void PlacePlayerAtPosition(PlayerModel player)
+    {
+        Debug.Log(player.name);
+    }
 }
